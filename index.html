@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日→英 テスト | EIGO NO PARTNER</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f1e4;
+    --text: #2f3b52;
+    --red: #d6473c;
+    --red-light: #f5e8e7;
+    --card-bg: #fffdf8;
+    --border: #d4c9b0;
+    --shadow: rgba(47,59,82,0.10);
+    --blue: #5c7a99;
+    --green: #6f8f6a;
+    --gold: #c99a3b;
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'Zen Maru Gothic', sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+  }
+  .note-page {
+    max-width: 680px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: var(--card-bg);
+    border-left: 4px solid var(--red);
+    box-shadow: 2px 0 16px var(--shadow);
+    padding: 32px 40px 32px 48px;
+    position: relative;
+  }
+  .app-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .app-subtitle { font-size: 13px; color: #6b7280; margin-bottom: 28px; }
+  .section-label {
+    font-size: 12px; font-weight: 700; color: var(--red);
+    text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;
+  }
+  .lesson-grid, .part-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .lesson-btn {
+    padding: 8px 18px; border: 2px solid var(--border); border-radius: 999px;
+    background: var(--card-bg); font-size: 14px; font-weight: 500; cursor: pointer;
+    transition: all .15s; font-family: var(--sans);
+  }
+  .lesson-btn:hover { border-color: var(--blue); }
+  .lesson-btn.selected { border-color: var(--blue); background: var(--blue); color: #fff; }
+  .part-btn {
+    padding: 6px 14px; border: 2px solid var(--border); border-radius: 999px;
+    background: var(--card-bg); font-size: 12px; cursor: pointer; transition: all .15s;
+    font-family: var(--sans);
+  }
+  .part-btn:hover { border-color: var(--green); }
+  .part-btn.selected { border-color: var(--green); background: var(--green); color: #fff; }
+  .option-row { display: flex; align-items: center; gap: 10px; margin: 20px 0 24px; }
+  .toggle-label { display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer; }
+  .toggle-label input { width: 16px; height: 16px; accent-color: var(--red); }
+  .start-btn {
+    width: 100%; padding: 16px; background: var(--red); color: #fff; border: none;
+    border-radius: 10px; font-weight: 700; cursor: pointer; font-size: 16px;
+    letter-spacing: 0.05em; transition: all .15s; font-family: var(--sans);
+  }
+  .start-btn:hover { background: #b83a30; }
+  .start-btn:active { transform: scale(0.98); }
+  .start-btn:disabled { background: #d1d5db; cursor: not-allowed; }
+  .quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .quiz-progress { font-size: 13px; color: #6b7280; }
+  .quiz-mode-badge {
+    font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px;
+    background: var(--blue); color: #fff;
+  }
+  .location-indicator {
+    font-size: 12px; color: #6b7280; margin-bottom: 12px; display: flex; align-items: center; gap: 4px;
+  }
+  .location-indicator .cur { font-weight: 600; color: #374151; }
+  .progress-bar-wrap {
+    width: 100%; height: 6px; background: var(--border); border-radius: 6px; margin-bottom: 28px; overflow: hidden;
+  }
+  .progress-bar-fill { height: 100%; background: var(--red); border-radius: 6px; transition: width .2s; }
+  .question-card {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px; margin-bottom: 20px; position: relative;
+  }
+  .question-label { font-size: 11px; font-weight: 700; color: #9ca3af; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .question-text { font-size: 20px; font-weight: 700; line-height: 1.7; }
+  .mark-svg { position: absolute; top: 12px; right: 16px; width: 56px; height: 56px; }
+  @keyframes drawCircle { from { stroke-dashoffset: 160; } to { stroke-dashoffset: 0; } }
+  @keyframes drawCross1 { from { stroke-dashoffset: 60; } to { stroke-dashoffset: 0; } }
+  @keyframes drawCross2 { from { stroke-dashoffset: 60; } to { stroke-dashoffset: 0; } }
+  .circle-path {
+    fill: none; stroke: var(--red); stroke-width: 3.5; stroke-linecap: round;
+    stroke-dasharray: 160; stroke-dashoffset: 160; animation: drawCircle 0.5s ease forwards;
+  }
+  .cross-path1, .cross-path2 {
+    fill: none; stroke: var(--red); stroke-width: 3.5; stroke-linecap: round;
+    stroke-dasharray: 60; stroke-dashoffset: 60;
+  }
+  .cross-path1 { animation: drawCross1 0.3s ease 0s forwards; }
+  .cross-path2 { animation: drawCross2 0.3s ease 0.15s forwards; }
+  .answer-area { margin-bottom: 16px; }
+  .answer-input {
+    width: 100%; padding: 14px 16px; background: var(--card-bg); border: 2px solid var(--border);
+    border-radius: 10px; outline: none; font-size: 16px; font-family: var(--mono); transition: all .15s;
+  }
+  .answer-input:focus { border-color: var(--blue); }
+  .answer-input.correct { border-color: var(--green); background: #f0f7ef; }
+  .answer-input.wrong { border-color: var(--red); background: var(--red-light); }
+  .action-row { display: flex; gap: 10px; }
+  .check-btn, .next-btn {
+    flex: 1; padding: 12px; border: none; border-radius: 10px; font-weight: 700;
+    cursor: pointer; font-size: 16px; font-family: var(--sans); color: #fff;
+  }
+  .check-btn { background: var(--text); }
+  .check-btn:hover { background: #1a2535; }
+  .next-btn { background: var(--red); }
+  .next-btn:hover { background: #b83a30; }
+  .feedback {
+    background: #fff; border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; margin-bottom: 16px;
+  }
+  .feedback-your { font-size: 13px; font-weight: 600; margin-bottom: 10px; font-family: var(--mono); }
+  .feedback-your.correct { color: var(--green); }
+  .feedback-your.wrong { color: var(--red); }
+  .feedback-correct-label { font-size: 12px; font-weight: 700; color: #6b7280; margin-bottom: 6px; }
+  .feedback-answer { font-size: 18px; font-weight: 700; font-family: var(--mono); }
+  .result-title { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .result-score { font-size: 48px; font-weight: 700; color: var(--red); line-height: 1; margin: 16px 0; }
+  .result-score-label { font-size: 14px; color: #6b7280; margin-bottom: 12px; }
+  .result-message {
+    background: var(--bg); border-radius: 12px; border-left: 4px solid var(--gold);
+    padding: 16px; margin-bottom: 24px;
+  }
+  .mistakes-section { margin-bottom: 24px; }
+  .mistakes-title { font-size: 13px; font-weight: 700; color: var(--red); letter-spacing: 0.05em; margin-bottom: 12px; }
+  .mistake-item {
+    padding: 12px; background: var(--bg); border-left: 3px solid var(--red);
+    border-radius: 0 8px 8px 0; margin-bottom: 8px; font-size: 13px;
+  }
+  .mistake-q { color: #6b7280; margin-bottom: 4px; }
+  .mistake-your { color: var(--red); font-size: 12px; margin-bottom: 4px; }
+  .mistake-correct { font-family: var(--mono); font-size: 14px; font-weight: 600; }
+  .result-btns { display: flex; flex-direction: column; gap: 10px; }
+  .result-btn {
+    padding: 14px; border: 2px solid var(--border); border-radius: 10px; font-weight: 700;
+    cursor: pointer; background: var(--card-bg); font-family: var(--sans); font-size: 14px;
+  }
+  .result-btn.primary { background: var(--red); color: #fff; border-color: var(--red); }
+  .result-btn.primary:hover { background: #b83a30; }
+  .empty-msg { font-size: 13px; color: #9ca3af; padding: 8px 0; }
+</style>
+</head>
+<body>
+
+<div class="note-page" id="app"></div>
+
+<script src="json/words-data.js"></script>
+<script>
+const WORDS = window.WORDS || [];
+
+// ---------- 縮約形展開・英語正規化（AI不使用の判定ロジック） ----------
+const CONTRACTIONS_MAP = {
+  "don't": "do not", "doesn't": "does not", "didn't": "did not",
+  "isn't": "is not", "aren't": "are not", "wasn't": "was not", "weren't": "were not",
+  "haven't": "have not", "hasn't": "has not", "hadn't": "had not",
+  "won't": "will not", "wouldn't": "would not", "can't": "cannot",
+  "couldn't": "could not", "shouldn't": "should not", "mustn't": "must not",
+  "needn't": "need not", "i'm": "i am", "you're": "you are", "he's": "he is",
+  "she's": "she is", "it's": "it is", "that's": "that is", "we're": "we are",
+  "they're": "they are", "i've": "i have", "you've": "you have", "we've": "we have",
+  "they've": "they have", "i'll": "i will", "you'll": "you will", "he'll": "he will",
+  "she'll": "she will", "it'll": "it will", "we'll": "we will", "they'll": "they will",
+  "let's": "let us",
+};
+const CONTRACTION_KEYS = Object.keys(CONTRACTIONS_MAP).sort((a, b) => b.length - a.length);
+const CONTRACTION_RE = new RegExp('\\b(' + CONTRACTION_KEYS.join('|') + ')\\b', 'gi');
+
+function expandContractions(text) {
+  return text.toLowerCase().replace(CONTRACTION_RE, (m) => CONTRACTIONS_MAP[m.toLowerCase()]);
+}
+function normalizeEn(text) {
+  return expandContractions(text)
+    .normalize('NFKC')
+    .replace(/'/g, '')
+    .replace(/\b(a|an|the)\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function compareWords(user, correct) {
+  return normalizeEn(user) === normalizeEn(correct);
+}
+
+// ---------- 履歴保存 (localStorage) ----------
+const HISTORY_KEY = 'ja2en_quiz_history';
+
+function loadHistory() {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    console.warn('履歴の読み込みに失敗しました:', e);
+    return [];
+  }
+}
+
+function saveHistoryRecord(record) {
+  try {
+    const history = loadHistory();
+    history.push(record);
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch (e) {
+    console.warn('履歴の保存に失敗しました:', e);
+  }
+}
+
+function clearHistory() {
+  try {
+    localStorage.removeItem(HISTORY_KEY);
+  } catch (e) {
+    console.warn('履歴の削除に失敗しました:', e);
+  }
+}
+
+// ---------- アプリ状態 ----------
+const state = {
+  screen: 'start',
+  selectedLesson: null,
+  selectedPart: null,
+  parts: [],
+  queue: [],
+  currentIndex: 0,
+  results: [],
+  isAnswered: false,
+  feedback: null,
+  markResult: null,
+};
+const lessons = [...new Set(WORDS.map(w => w.lesson))];
+
+const app = document.getElementById('app');
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s == null ? '' : String(s);
+  return d.innerHTML;
+}
+
+function render() {
+  if (state.screen === 'start') return renderStart();
+  if (state.screen === 'quiz') return renderQuiz();
+  if (state.screen === 'result') return renderResult();
+  if (state.screen === 'history') return renderHistory();
+}
+
+function renderStart() {
+  const lessonBtns = lessons.map(l => `
+    <button class="lesson-btn ${state.selectedLesson === l ? 'selected' : ''}" data-lesson="${esc(l)}">
+      ${l === 'Starter' ? 'Starter' : 'Lesson ' + esc(l)}
+    </button>`).join('');
+
+  let partSection = '';
+  if (state.selectedLesson && state.parts.length > 0) {
+    const partBtns = state.parts.map(p => `
+      <button class="part-btn ${state.selectedPart === p ? 'selected' : ''}" data-part="${esc(p)}">
+        Part ${esc(p)}
+      </button>`).join('');
+    partSection = `
+      <div style="margin-top:20px;">
+        <div class="section-label">パートを選ぶ</div>
+        <div class="part-row">
+          <button class="part-btn ${state.selectedPart === 'all' ? 'selected' : ''}" data-part="all">すべて</button>
+          ${partBtns}
+        </div>
+      </div>`;
+  }
+
+  app.innerHTML = `
+    <div class="app-title">📖 日→英 テスト</div>
+    <div class="app-subtitle">EIGO NO PARTNER</div>
+
+    <div class="section-label">レッスンを選ぶ</div>
+    <div class="lesson-grid">${lessonBtns}</div>
+
+    ${partSection}
+
+    <div class="option-row">
+      <label class="toggle-label">
+        <input type="checkbox" id="shuffle-check">
+        シャッフルする
+      </label>
+    </div>
+
+    <button id="start-btn" class="start-btn" ${state.selectedLesson === null ? 'disabled' : ''}>開始</button>
+    <button id="history-btn" class="result-btn" style="width:100%;margin-top:10px;">📊 履歴を見る</button>
+  `;
+
+  app.querySelectorAll('[data-lesson]').forEach(btn => {
+    btn.addEventListener('click', () => selectLesson(btn.dataset.lesson));
+  });
+  app.querySelectorAll('[data-part]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.selectedPart = btn.dataset.part;
+      render();
+    });
+  });
+  const startBtn = document.getElementById('start-btn');
+  if (startBtn) {
+    startBtn.addEventListener('click', () => {
+      const shuffle = document.getElementById('shuffle-check').checked;
+      startQuiz(shuffle);
+    });
+  }
+  document.getElementById('history-btn').addEventListener('click', () => {
+    state.screen = 'history';
+    render();
+  });
+}
+
+function selectLesson(lesson) {
+  const parts = [...new Set(
+    WORDS.filter(w => w.lesson === lesson && w.part !== '').map(w => w.part)
+  )];
+  state.selectedLesson = lesson;
+  state.selectedPart = 'all';
+  state.parts = parts;
+  render();
+}
+
+function startQuiz(shuffle) {
+  let items = WORDS.filter(w => w.lesson === state.selectedLesson);
+  if (state.selectedPart && state.selectedPart !== 'all') {
+    items = items.filter(w => w.part === state.selectedPart);
+  }
+  if (shuffle) items = [...items].sort(() => Math.random() - 0.5);
+
+  state.queue = items;
+  state.currentIndex = 0;
+  state.results = [];
+  state.isAnswered = false;
+  state.feedback = null;
+  state.markResult = null;
+    state.currentAnswer = '';
+  state.screen = 'quiz';
+  render();
+}
+
+function renderQuiz() {
+  if (state.queue.length === 0) {
+    app.innerHTML = `<div class="empty-msg">この範囲には問題がありません。</div>
+      <button class="result-btn" id="back-btn">選択に戻る</button>`;
+    document.getElementById('back-btn').addEventListener('click', () => { state.screen = 'start'; render(); });
+    return;
+  }
+  const item = state.queue[state.currentIndex];
+  const pct = (state.currentIndex / state.queue.length) * 100;
+
+  let markSvg = '';
+  if (state.markResult === true) {
+    markSvg = `<svg class="mark-svg" viewBox="0 0 56 56"><circle cx="28" cy="28" r="22" class="circle-path" /></svg>`;
+  } else if (state.markResult === false) {
+    markSvg = `<svg class="mark-svg" viewBox="0 0 56 56">
+      <line x1="12" y1="12" x2="44" y2="44" class="cross-path1" />
+      <line x1="44" y1="12" x2="12" y2="44" class="cross-path2" />
+    </svg>`;
+  }
+
+  let feedbackHtml = '';
+  if (state.feedback) {
+    const userLine = state.feedback.userAnswer
+      ? `<div class="feedback-your ${state.feedback.correct ? 'correct' : 'wrong'}">あなたの回答: ${esc(state.feedback.userAnswer)}</div>`
+      : `<div class="feedback-your wrong">あなたの回答: （未回答）</div>`;
+    feedbackHtml = `
+      <div class="feedback">
+        ${userLine}
+        <div class="feedback-correct-label">✏️ 正解</div>
+        <div class="feedback-answer">${esc(state.feedback.answerText)}</div>
+      </div>`;
+  }
+
+  const partLabel = (state.selectedPart && state.selectedPart !== 'all')
+    ? `<span style="color:#d1d5db;margin:0 2px;">/</span><span class="cur">Part ${esc(state.selectedPart)}</span>`
+    : '';
+
+  app.innerHTML = `
+    <div class="quiz-header">
+      <div class="quiz-progress">${state.currentIndex + 1} / ${state.queue.length}</div>
+      <div class="quiz-mode-badge">日→英</div>
+    </div>
+    <div class="location-indicator">
+      <span>📖</span>
+      <span class="cur">${state.selectedLesson === 'Starter' ? 'Starter' : 'Lesson ' + esc(state.selectedLesson)}</span>
+      ${partLabel}
+    </div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+
+    <div class="question-card">
+      <div class="question-label">日本語</div>
+      <div class="question-text">${esc(item.ja)}</div>
+      ${markSvg}
+    </div>
+
+    <div class="answer-area">
+      <input type="text" id="answer-input" class="answer-input ${state.isAnswered ? (state.markResult ? 'correct' : 'wrong') : ''}" placeholder="Type in English…" value="${esc(state.currentAnswer || '')}" ${state.isAnswered ? 'readonly' : ''} autofocus>
+    </div>
+
+    ${feedbackHtml}
+
+    <div class="action-row">
+      ${!state.isAnswered ? `<button class="check-btn" id="check-btn">判定</button>` : ''}
+      ${state.isAnswered ? `<button class="next-btn" id="next-btn">${state.currentIndex === state.queue.length - 1 ? '結果を見る' : '次へ →'}</button>` : ''}
+    </div>
+  `;
+
+  const input = document.getElementById('answer-input');
+  input.focus();
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      if (!state.isAnswered) checkAnswer(); else nextQuestion();
+    }
+  });
+  const checkBtn = document.getElementById('check-btn');
+  if (checkBtn) checkBtn.addEventListener('click', checkAnswer);
+  const nextBtn = document.getElementById('next-btn');
+  if (nextBtn) nextBtn.addEventListener('click', nextQuestion);
+}
+
+function checkAnswer() {
+  if (state.isAnswered) return;
+  const item = state.queue[state.currentIndex];
+  const input = document.getElementById('answer-input');
+  const userRaw = input.value.trim();
+
+  const correct = compareWords(userRaw, item.en);
+
+  state.isAnswered = true;
+  state.currentAnswer = userRaw;
+  state.results.push({ item, correct, userAnswer: userRaw });
+  state.feedback = { answerText: item.en, userAnswer: userRaw, correct };
+  state.markResult = correct;
+
+  render();
+}
+
+function nextQuestion() {
+  if (state.currentIndex === state.queue.length - 1) {
+    state.screen = 'result';
+    const total = state.results.length;
+    const correctCount = state.results.filter(r => r.correct).length;
+    saveHistoryRecord({
+      date: new Date().toISOString(),
+      lesson: state.selectedLesson,
+      part: state.selectedPart,
+      correct: correctCount,
+      total: total,
+      pct: total > 0 ? Math.round((correctCount / total) * 100) : 0,
+    });
+  } else {
+    state.currentIndex += 1;
+    state.isAnswered = false;
+    state.feedback = null;
+    state.markResult = null;
+    state.currentAnswer = '';
+  }
+  render();
+}
+
+function renderResult() {
+  const total = state.results.length;
+  const correct = state.results.filter(r => r.correct).length;
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
+  const mistakes = state.results.filter(r => !r.correct);
+
+  const message = pct === 100 ? '完璧です！素晴らしい！'
+    : pct >= 80 ? 'よくできました！'
+    : pct >= 60 ? 'もう少し頑張りましょう'
+    : '復習をおすすめします';
+
+  let mistakesHtml = '';
+  if (mistakes.length > 0) {
+    const items = mistakes.map(r => `
+      <div class="mistake-item">
+        <div class="mistake-q">${esc(r.item.ja)}</div>
+        <div class="mistake-your">あなたの答え: ${esc(r.userAnswer || '（未回答）')}</div>
+        <div class="mistake-correct">正解: ${esc(r.item.en)}</div>
+      </div>`).join('');
+    mistakesHtml = `
+      <div class="mistakes-section">
+        <div class="mistakes-title">✏️ 間違えた問題 (${mistakes.length}問)</div>
+        ${items}
+      </div>`;
+  }
+
+  app.innerHTML = `
+    <div class="result-title">テスト結果</div>
+    <div class="result-score">${pct}%</div>
+    <div class="result-score-label">${correct} / ${total} 問正解</div>
+    <div class="result-message">${message}</div>
+    ${mistakesHtml}
+    <div class="result-btns">
+      ${mistakes.length > 0 ? `<button class="result-btn primary" id="retry-mistakes-btn">間違いのみ再挑戦</button>` : ''}
+      <button class="result-btn" id="retry-all-btn">全部再挑戦</button>
+      <button class="result-btn" id="back-to-start-btn">選択に戻る</button>
+      <button class="result-btn" id="view-history-btn">📊 履歴を見る</button>
+    </div>
+  `;
+
+  const rmBtn = document.getElementById('retry-mistakes-btn');
+  if (rmBtn) rmBtn.addEventListener('click', () => {
+    state.queue = mistakes.map(r => r.item);
+    state.currentIndex = 0;
+    state.results = [];
+    state.isAnswered = false;
+    state.feedback = null;
+    state.markResult = null;
+        state.currentAnswer = '';
+    state.screen = 'quiz';
+    render();
+  });
+  document.getElementById('retry-all-btn').addEventListener('click', () => {
+    state.queue = [...state.queue].sort(() => Math.random() - 0.5);
+    state.currentIndex = 0;
+    state.results = [];
+    state.isAnswered = false;
+    state.feedback = null;
+    state.markResult = null;
+        state.currentAnswer = '';
+    state.screen = 'quiz';
+    render();
+  });
+  document.getElementById('back-to-start-btn').addEventListener('click', () => {
+    state.screen = 'start';
+    render();
+  });
+  document.getElementById('view-history-btn').addEventListener('click', () => {
+    state.screen = 'history';
+    render();
+  });
+}
+
+function renderHistory() {
+  const history = loadHistory().slice().reverse(); // 新しい順
+
+  if (history.length === 0) {
+    app.innerHTML = `
+      <div class="app-title">📊 履歴</div>
+      <div class="empty-msg">まだテスト履歴がありません。</div>
+      <button class="result-btn" id="back-btn" style="margin-top:16px;">選択に戻る</button>
+    `;
+    document.getElementById('back-btn').addEventListener('click', () => { state.screen = 'start'; render(); });
+    return;
+  }
+
+  const totalAttempts = history.length;
+  const avgPct = Math.round(history.reduce((s, r) => s + r.pct, 0) / totalAttempts);
+  const bestPct = Math.max(...history.map(r => r.pct));
+
+  // グラフ用: 直近20件を古い順に並べる
+  const chartData = history.slice(0, 20).reverse();
+  const chartHtml = renderChart(chartData);
+
+  const listHtml = history.map(r => {
+    const d = new Date(r.date);
+    const dateStr = `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+    const lessonLabel = r.lesson === 'Starter' ? 'Starter' : 'Lesson ' + esc(r.lesson);
+    const partLabel = (r.part && r.part !== 'all') ? ` / Part ${esc(r.part)}` : '';
+    const colorClass = r.pct >= 80 ? 'correct' : r.pct >= 50 ? '' : 'wrong';
+    return `
+      <div class="mistake-item" style="border-left-color: ${r.pct >= 80 ? 'var(--green)' : r.pct >= 50 ? 'var(--gold)' : 'var(--red)'};">
+        <div class="mistake-q">${dateStr}　${lessonLabel}${partLabel}</div>
+        <div class="mistake-correct">${r.correct} / ${r.total} 問正解（${r.pct}%）</div>
+      </div>`;
+  }).join('');
+
+  app.innerHTML = `
+    <div class="app-title">📊 履歴</div>
+    <div class="app-subtitle">これまでのテスト結果</div>
+
+    <div style="display:flex; gap:10px; margin-bottom:20px;">
+      <div style="flex:1; background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;">
+        <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">回数</div>
+        <div style="font-size:20px; font-weight:700;">${totalAttempts}</div>
+      </div>
+      <div style="flex:1; background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;">
+        <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">平均正答率</div>
+        <div style="font-size:20px; font-weight:700; color:var(--blue);">${avgPct}%</div>
+      </div>
+      <div style="flex:1; background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;">
+        <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">最高記録</div>
+        <div style="font-size:20px; font-weight:700; color:var(--gold);">${bestPct}%</div>
+      </div>
+    </div>
+
+    <div class="section-label">正答率の推移（直近${chartData.length}件）</div>
+    ${chartHtml}
+
+    <div class="section-label" style="margin-top:24px;">テスト履歴（新しい順）</div>
+    <div>${listHtml}</div>
+
+    <div class="result-btns" style="margin-top:20px;">
+      <button class="result-btn" id="back-btn">選択に戻る</button>
+      <button class="result-btn" id="clear-history-btn" style="color:var(--red); border-color:var(--red);">🗑 履歴を削除</button>
+    </div>
+  `;
+
+  document.getElementById('back-btn').addEventListener('click', () => { state.screen = 'start'; render(); });
+  document.getElementById('clear-history-btn').addEventListener('click', () => {
+    if (confirm('履歴をすべて削除しますか？この操作は取り消せません。')) {
+      clearHistory();
+      render();
+    }
+  });
+}
+
+function renderChart(data) {
+  if (data.length === 0) return '';
+  const w = 596, h = 160, padL = 30, padB = 20, padT = 10, padR = 10;
+  const chartW = w - padL - padR;
+  const chartH = h - padT - padB;
+
+  const gridLines = [0, 25, 50, 75, 100].map(v => {
+    const y = padT + chartH - (v / 100) * chartH;
+    return `<line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="var(--border)" stroke-width="1" />
+      <text x="${padL - 6}" y="${y + 3}" font-size="9" fill="#9ca3af" text-anchor="end" font-family="var(--mono)">${v}</text>`;
+  }).join('');
+
+  const stepX = data.length > 1 ? chartW / (data.length - 1) : 0;
+  const pointFor = (r, i) => {
+    const x = data.length > 1 ? padL + i * stepX : padL + chartW / 2;
+    const y = padT + chartH - (r.pct / 100) * chartH;
+    return { x, y };
+  };
+  const points = data.map(pointFor);
+
+  const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
+  const areaPath = `${linePath} L ${points[points.length - 1].x} ${padT + chartH} L ${points[0].x} ${padT + chartH} Z`;
+
+  const dots = points.map((p, i) => {
+    const r = data[i];
+    const color = r.pct >= 80 ? 'var(--green)' : r.pct >= 50 ? 'var(--gold)' : 'var(--red)';
+    return `<circle cx="${p.x}" cy="${p.y}" r="4" fill="${color}" stroke="var(--card-bg)" stroke-width="1.5">
+      <title>${r.pct}%</title>
+    </circle>`;
+  }).join('');
+
+  return `
+    <svg viewBox="0 0 ${w} ${h}" style="width:100%; height:auto; background:var(--card-bg); border:1px solid var(--border); border-radius:10px;">
+      ${gridLines}
+      <path d="${areaPath}" fill="var(--red)" fill-opacity="0.08" stroke="none" />
+      <path d="${linePath}" fill="none" stroke="var(--red)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+      ${dots}
+    </svg>`;
+}
+
+render();
+</script>
+</body>
+</html>
