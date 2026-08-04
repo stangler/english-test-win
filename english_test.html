@@ -403,6 +403,7 @@ const state = {
   isAnswered: false,
   feedback: null,
   markResult: null,
+  currentHistoryFilter: null,
 };
 const lessons = [...new Set(WORDS.map(w => w.lesson))];
 
@@ -707,10 +708,47 @@ function renderResult() {
   });
 }
 
-function renderHistory() {
-  const history = loadHistory().slice().reverse(); // 新しい順
+function setHistoryFilter(filter) {
+  state.currentHistoryFilter = filter;
+}
 
-  if (history.length === 0) {
+function clearHistoryFilter() {
+  state.currentHistoryFilter = null;
+}
+
+function getPartStatistics(history) {
+  const stats = {};
+  history.forEach(h => {
+    const key = h.lesson + '||' + (h.part || 'all');
+    if (!stats[key]) {
+      stats[key] = {
+        lesson: h.lesson,
+        part: h.part || 'all',
+        attempts: 0,
+        totalPct: 0,
+        bestPct: 0
+      };
+    }
+    stats[key].attempts++;
+    stats[key].totalPct += h.pct;
+    if (h.pct > stats[key].bestPct) {
+      stats[key].bestPct = h.pct;
+    }
+  });
+
+  return Object.values(stats).map(s => ({
+    ...s,
+    avgPct: Math.round(s.totalPct / s.attempts)
+  })).sort((a, b) => {
+    if (a.lesson !== b.lesson) return a.lesson.localeCompare(b.lesson);
+    return a.part.localeCompare(b.part);
+  });
+}
+
+function renderHistory() {
+  const fullHistory = loadHistory().slice().reverse(); // 新しい順
+
+  if (fullHistory.length === 0) {
     app.innerHTML = `
       <div class="app-title">📊 履歴</div>
       <div class="empty-msg">まだテスト履歴がありません。</div>
@@ -720,13 +758,54 @@ function renderHistory() {
     return;
   }
 
-  const totalAttempts = history.length;
-  const avgPct = Math.round(history.reduce((s, r) => s + r.pct, 0) / totalAttempts);
-  const bestPct = Math.max(...history.map(r => r.pct));
+  // フィルタ適用（state から状態を取得）
+  const filter = state.currentHistoryFilter;
+  const history = filter
+    ? fullHistory.filter(h => h.lesson === filter.lesson && h.part === filter.part)
+    : fullHistory;
 
-  const progressHtml = renderProgressPanel(history);
-  const chartsHtml = renderPerGroupCharts(history);
+  // 全体とフィルタ後の統計を計算
+  const calcStats = (list) => ({
+    total: list.length,
+    avgPct: list.length > 0 ? Math.round(list.reduce((s, r) => s + r.pct, 0) / list.length) : 0,
+    bestPct: list.length > 0 ? Math.max(...list.map(r => r.pct)) : 0,
+  });
+  const allStats = calcStats(fullHistory);
+  const filtStats = calcStats(history);
 
+  // フィルターバッジの表示名
+  const activeBadgeKey = filter ? `${filter.lesson}||${filter.part}` : null;
+
+  const partStats = getPartStatistics(fullHistory);
+  const filterablePartStatsHtml = partStats.map(s => {
+    const lessonLabel = s.lesson === 'Starter' ? 'Starter' : 'Lesson ' + esc(s.lesson);
+    const partLabel = (s.part && s.part !== 'all') ? ' / Part ' + esc(s.part) : '';
+    const isActive = `${s.lesson}||${s.part}` === activeBadgeKey;
+    const badgeCls = isActive ? 'done' : '';
+    const style = isActive
+      ? 'border-color: var(--blue); background: var(--blue); color: #fff; transform: translateY(-2px); box-shadow: 0 2px 8px var(--shadow);'
+      : '';
+    return `
+      <button class="progress-badge ${badgeCls}" data-stat-filter-lesson="${esc(s.lesson)}" data-stat-filter-part="${esc(s.part)}" style="cursor:pointer; ${style}">
+        <span style="font-weight:600; margin-bottom:6px;">${esc(lessonLabel + partLabel)}</span>
+        <span class="pb-count">${s.attempts}回</span>
+        <span class="pb-pct">平均 ${s.avgPct}%</span>
+        <span style="font-size:11px; color:var(--gold); font-weight:600;">最高 ${s.bestPct}%</span>
+        ${isActive ? '<span style="font-size:11px;">●選択中</span>' : ''}
+      </button>
+    `;
+  }).join('');
+
+  // 「すべて表示」バッジの計算
+  const allBadgeActive = !filter;
+  const allBadgeStyle = allBadgeActive
+    ? 'border-color: var(--blue); background: var(--blue); color: #fff; transform: translateY(-2px); box-shadow: 0 2px 8px var(--shadow);'
+    : '';
+
+  const progressHtml = renderProgressPanel(fullHistory);
+  const chartsHtml = renderPerGroupCharts(fullHistory);
+
+  // 現在の履歴リスト（フィルタ済み）
   const listHtml = history.map((r, i) => {
     const d = new Date(r.date);
     const dateStr = `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
@@ -734,29 +813,50 @@ function renderHistory() {
     const partLabel = (r.part && r.part !== 'all') ? ` / Part ${esc(r.part)}` : '';
     return `
       <div class="mistake-item history-row" style="border-left-color: ${r.pct >= 80 ? 'var(--green)' : r.pct >= 50 ? 'var(--gold)' : 'var(--red)'};">
-        <button class="history-del-btn" data-del-index="${i}" title="この履歴を削除">✕</button>
-        <div class="mistake-q">${dateStr}　${lessonLabel}${partLabel}</div>
+        <button class="history-del-btn" data-del-index="${i}" data-filtered="true" title="この履歴を削除">✕</button>
+        <div class="mistake-q">${dateStr} ${lessonLabel}${partLabel}</div>
         <div class="mistake-correct">${r.correct} / ${r.total} 問正解（${r.pct}%）</div>
       </div>`;
   }).join('');
 
+  // フィルターバー
+  const filterBarHtml = filter
+    ? `<div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+         <span style="font-size:13px; font-weight:600; color:var(--blue);">🔍 フィルター: ${filter.lesson === 'Starter' ? 'Starter' : 'Lesson ' + esc(filter.lesson)}${(filter.part && filter.part !== 'all') ? ' / Part ' + esc(filter.part) : ''}</span>
+         <button class="part-btn" id="clear-filter-btn" style="background: var(--blue); color: #fff; border-color: var(--blue);">✕ クリア</button>
+       </div>`
+    : '';
+
   app.innerHTML = `
     <div class="app-title">📊 履歴</div>
-    <div class="app-subtitle">これまでのテスト結果</div>
+    <div class="app-subtitle">${filter ? '（フィルター適用中）' : 'これまでのテスト結果'}</div>
 
     <div style="display:flex; gap:10px; margin-bottom:20px;">
       <div style="flex:1; background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;">
-        <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">回数</div>
-        <div style="font-size:20px; font-weight:700;">${totalAttempts}</div>
+        <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">表示回数</div>
+        <div style="font-size:20px; font-weight:700;">${filtStats.total}</div>
       </div>
       <div style="flex:1; background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;">
         <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">平均正答率</div>
-        <div style="font-size:20px; font-weight:700; color:var(--blue);">${avgPct}%</div>
+        <div style="font-size:20px; font-weight:700; color:var(--blue);">${filtStats.avgPct}%</div>
       </div>
       <div style="flex:1; background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;">
         <div style="font-size:11px; color:#9ca3af; margin-bottom:4px;">最高記録</div>
-        <div style="font-size:20px; font-weight:700; color:var(--gold);">${bestPct}%</div>
+        <div style="font-size:20px; font-weight:700; color:var(--gold);">${filtStats.bestPct}%</div>
       </div>
+    </div>
+
+    <div class="section-label">パート別統計（クリックでフィルタ）</div>
+    ${filterBarHtml}
+    <div class="progress-grid" style="margin-bottom:20px;">
+      <button class="progress-badge ${allBadgeActive ? 'done' : ''}" id="show-all-stats" style="cursor:pointer; ${allBadgeStyle}">
+        <span style="font-weight:600; margin-bottom:6px;">すべて表示</span>
+        <span class="pb-count">${allStats.total}回</span>
+        <span class="pb-pct">平均 ${allStats.avgPct}%</span>
+        <span style="font-size:11px; color:var(--gold); font-weight:600;">最高 ${allStats.bestPct}%</span>
+        ${allBadgeActive ? '<span style="font-size:11px;">●選択中</span>' : ''}
+      </button>
+      ${filterablePartStatsHtml}
     </div>
 
     <div class="section-label">進捗パネル（クリックでそのまま挑戦）</div>
@@ -765,8 +865,8 @@ function renderHistory() {
     <div class="section-label" style="margin-top:24px;">レッスン別の推移</div>
     ${chartsHtml}
 
-    <div class="section-label" style="margin-top:24px;">テスト履歴（新しい順）</div>
-    <div>${listHtml}</div>
+    <div class="section-label" style="margin-top:24px;">テスト履歴（${filter ? 'フィルター済み' : '新しい順'}）</div>
+    <div id="history-list-section">${listHtml || '<div class="empty-msg">この条件の履歴はありません。</div>'}</div>
 
     <div class="result-btns" style="margin-top:20px;">
       <button class="result-btn" id="back-btn">選択に戻る</button>
@@ -781,15 +881,18 @@ function renderHistory() {
       render();
     }
   });
-  app.querySelectorAll('[data-del-index]').forEach(btn => {
+
+  // 個別削除ボタンのイベント設定（フィルタ用）
+  app.querySelectorAll('[data-del-index][data-filtered="true"]').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       if (confirm('この履歴を削除しますか？')) {
-        deleteHistoryAt(Number(btn.dataset.delIndex), totalAttempts);
-        render();
+        deleteSingleHistoryItem(Number(btn.dataset.delIndex));
       }
     });
   });
+
+  // 進捗バッジのクリック（そのレッスン/パートのクイズを開始）
   app.querySelectorAll('[data-plesson]').forEach(btn => {
     btn.addEventListener('click', () => {
       const lesson = btn.dataset.plesson;
@@ -800,6 +903,51 @@ function renderHistory() {
       startQuiz(false);
     });
   });
+
+  // 「すべて表示」ボタンのクリック
+  document.getElementById('show-all-stats').addEventListener('click', () => {
+    clearHistoryFilter();
+    render();
+  });
+
+  // 「フィルタークリア」ボタンのクリック
+  const clearFilterBtn = document.getElementById('clear-filter-btn');
+  if (clearFilterBtn) {
+    clearFilterBtn.addEventListener('click', () => {
+      clearHistoryFilter();
+      render();
+    });
+  }
+
+  // 統計バッジのクリック（履歴フィルタを適用）
+  app.querySelectorAll('[data-stat-filter-lesson]').forEach(card => {
+    card.addEventListener('click', () => {
+      const lesson = card.dataset.statFilterLesson;
+      const part = card.dataset.statFilterPart;
+      setHistoryFilter({ lesson, part });
+      render();
+    });
+  });
+}
+function deleteSingleHistoryItem(displayIndex) {
+  const filter = state.currentHistoryFilter;
+  const fullReversed = loadHistory().slice().reverse();
+
+  const history = filter
+    ? fullReversed.filter(h => h.lesson === filter.lesson && h.part === filter.part)
+    : fullReversed;
+
+  if (displayIndex < 0 || displayIndex >= history.length) return;
+
+  const targetItem = history[displayIndex];
+  const realIndex = fullReversed.findIndex(h =>
+    h.date === targetItem.date &&
+    h.lesson === targetItem.lesson &&
+    h.part === targetItem.part
+  );
+  if (realIndex >= 0) {
+    deleteHistoryAt(realIndex, fullReversed.length);
+  }
 }
 
 function renderChart(data) {
