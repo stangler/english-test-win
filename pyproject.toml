@@ -1,0 +1,9 @@
+[project]
+name = "english-test-app"
+version = "1.0.0"
+description = "日→英テスト — EIGO NO PARTNER"
+requires-python = ">=3.13"
+
+dependencies = [
+    "openpyxl>=3.1.5",
+]

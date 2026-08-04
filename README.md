@@ -30,6 +30,7 @@ english-test-app/
 ├── xlsx/
 │   └── EIGO_NO_PARTNERに出てくる文.xlsx  # 出典データ
 ├── build.py               # xlsx → json/words-data.js 変換スクリプト
+├── pyproject.toml         # プロジェクト設定（uv管理用）
 └── README.md
 ```
 
@@ -38,8 +39,7 @@ english-test-app/
 xlsx を差し替えた場合は再生成してください。
 
 ```bash
-pip install openpyxl --break-system-packages   # 未インストールの場合
-python3 build.py
+uv run python build.py
 ```
 
 `xlsx/` 内のExcelファイル（Lesson / Part / 英語 / 日本語の列構成）を読み込み、
