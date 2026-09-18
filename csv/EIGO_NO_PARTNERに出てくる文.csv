@@ -1,0 +1,419 @@
+Lesson,Part,英語,日本語
+Starter,,a soccer player,サッカー選手
+Starter,,a yellow umbrella,黄色いかさ
+Starter,,I am a soccer player.,私はサッカー選手です。
+Starter,,"Hello, I am Hasegawa Mika.",こんにちは。私は長谷川ミカです。
+Starter,,Are you from Tokyo?,あなたは東京出身ですか。
+Starter,,"No, I'm not.",いいえ、違います。
+1,1,I am Kato Riku.,私は加藤リクです。
+1,1,I like music.,私は音楽が好きです。
+1,1,I am Lisa.,私はリサです。
+1,1,I like cats.,私はネコを好みます。（=私はネコが好きです。）
+1,1,I am Watanabe Ken.,私は渡辺ケンです。
+1,1,I am good at soccer.,私はサッカーが上手です。
+1,1,I like soba.,私はそばが好きです。
+1,1,I like dogs.,私はイヌが好きです。
+1,1,I am Lisa Brown.,私はリサ・ブラウンです。
+1,1,I like tennis.,私はテニスが好きです。
+1,1,I am good at English.,ぼくは英語が上手です。
+1,1,I play rugby.,ぼくはラグビーをします。
+1,1,I watch movies.,私は映画を見ます。
+1,1,read,…を読む
+1,1,game,試合
+1,1,often,たびたび、よく
+1,1,I am good at judo.,ぼくは柔道が上手です。
+1,1,I read books in English.,私は英語で本を読みます。
+1,2-1,"Are you a basketball fan? Yes, I am.",あなたはバスケットボールのファンですか。はい、そうです。
+1,2-1,"Do you like rugby? Yes, I do.",あなたはラグビーが好きですか。はい、好きです。
+1,2-1,Are you a soccer fan?,あなたはサッカーファンですか。
+1,2-1,Are you Mika?,あなたはミカですか。
+1,2-1,Are you in a school club?,あなたは学校のクラブに所属していますか。
+1,2-1,Do you like dogs?,あなたはイヌが好きですか。
+1,2-1,Do you play piano?,あなたはピアノをひきますか。
+1,2-1,"Are you a dancer? Yes, I am.",あなたはダンサーですか。はい、そうです。
+1,2-1,"Are you a volleyball fan? No, I am not.",あなたはバレーボールのファンですか。いいえ、そうではありません。
+1,2-1,"Do you like sushi? Yes, I do.",あなたはすしが好きですか。はい、好きです。
+1,2-1,"Do you go to the library? No, I do not.",あなたは図書館へ行きますか。いいえ、行きません。
+1,2-1,You are Kota.,あなたはコータです。
+1,2-1,Are you Kota?,あなたはコータですか。
+1,2-1,You like English.,あなたは英語が好きです。
+1,2-2,Do you like English?,あなたは英語が好きですか。
+1,2-2,You play tennis.,あなたはテニスをします。
+1,2-2,Do you play tennis?,あなたはテニスをしますか。
+1,2-2,"Are you a math teacher? No, I'm not.",あなたは数学の先生ですか。いいえ、違います。
+1,2-2,Are you in the judo club?,あなたは柔道部に所属していますか。
+1,2-2,"Do you drink milk? No, I don't.",あなたは牛乳を飲みますか。いいえ、飲みません。
+1,2-2,Do you watch baseball?,あなたは野球を見ますか。
+1,2-2,I am not a basketball fan.,私はバスケットボールのファンではありません。
+1,2-2,I do not play rugby.,私はラグビーをしません。
+1,2-2,I am not a student.,私は学生ではありません。
+1,2-2,I don't like dogs.,私はイヌが好きではありません。
+1,2-2,I don't like English.,私は英語が好きではありません。
+1,2-2,I am not a hip-hop dancer.,私はヒップホップダンサーではありません。
+1,2-2,I do not like sushi.,私はすしが好きではありません。
+1,2-3,I am a tennis fan.,私はテニスファンです。
+1,2-3,I am not a tennis fan.,私はテニスファンではありません。
+1,2-3,I play tennis.,私はテニスをします。
+1,2-3,I do not play tennis.,私はテニスをしません。
+1,2-3,I am not a rugby fan.,私はラグビーのファンではありません。
+1,2-3,I'm not good at soccer.,私はサッカーが上手ではありません。
+1,2-3,I don't play the piano.,私はピアノをひきません。
+1,2-3,I don't eat chocolate.,私はチョコレートを食べません。
+1,2-3,take,（授業などを）受ける
+1,2-3,fan,ファン
+1,2-3,every,毎…、…ごとに
+1,2-3,I study English every day.,私は毎日英語を勉強します。
+1,2-3,I practice baseball after school.,ぼくは放課後に野球を練習します。
+1,3,What do you do on weekends? I watch movies.,あなたは週末に何をしますか。私は映画を見ます。
+1,3,What music do you like? I like J-pop.,あなたはどんな音楽が好きですか。私はJポップが好きです。
+1,3,What do you do on Sundays?,あなたは日曜日に何をしますか。
+1,3,What fruit do you like?,あなたはどんな果物が好きですか。
+1,3,What do you study at school?,あなたは学校で何を勉強していますか。
+1,3,What anime do you watch?,あなたはどんなアニメを見ますか。
+1,3,What do you watch on TV?,あなたはテレビで何を見ますか。
+1,3,What sport do you like?,あなたはどんなスポーツが好きですか。
+1,3,Do you read magazines?,あなたは雑誌を読みますか。
+1,3,What do you read?,あなたは何を読みますか。
+1,3,Do you have cats?,あなたはネコを飼っていますか。
+1,3,What do you have?,あなたは何か飼っていますか。
+1,3,What do you play in the brass band?,あなたは吹奏楽部で何を演奏しますか。
+1,3,What subject do you like?,あなたは何の教科が好きですか。
+1,3,action,動作、アクション
+1,3,weekends,週末
+1,3,pet,ペット
+1,3,Look at this picture.,この写真を見てください。
+1,学んだことを整理する1,soccer,サッカー
+1,学んだことを整理する1,baseball,野球
+1,学んだことを整理する1,basketball,バスケットボール
+1,学んだことを整理する1,tennis,テニス
+1,学んだことを整理する1,Monday,月曜日
+1,学んだことを整理する1,Tuesday,火曜日
+1,学んだことを整理する1,Wednesday,水曜日
+1,学んだことを整理する1,Thursday,木曜日
+1,学んだことを整理する1,Friday,金曜日
+1,学んだことを整理する1,Saturday,土曜日
+1,学んだことを整理する1,Sunday,日曜日
+1,学んだことを整理する1,watch,…を見る
+1,学んだことを整理する1,practice,（…を）練習する
+1,学んだことを整理する1,have,…を持っている
+1,学んだことを整理する1,take,（写真を）撮る
+1,学んだことを整理する2,I am Sato Takeru.,私は佐藤タケルです。
+1,学んだことを整理する2,I like tennis.,私はテニスが好きです。
+1,学んだことを整理する2,I don't watch TV.,私はテレビを見ません。
+1,学んだことを整理する2,I'm not a nurse.,私は看護師ではありません。
+1,学んだことを整理する2,"Are you Lisa? No, I am not.",あなたはリサですか。いいえ、違います。
+1,学んだことを整理する2,"Do you play soccer? No, I don't.",あなたはサッカーをしますか。いいえ、しません。
+1,学んだことを整理する2,Are you a rugby fan?,あなたはラグビーファンですか。
+1,学んだことを整理する2,Do you watch baseball?,あなたは野球を見ますか。
+1,学んだことを整理する2,What do you do on Sundays?,あなたは日曜日に何をしますか。
+1,学んだことを整理する2,What sport do you like?,あなたは何のスポーツが好きですか。
+1,Goal Activity,love,…を愛する、…が大好きである
+1,Goal Activity,many,多くの
+1,Goal Activity,tablet,タブレット
+1,Goal Activity,Profile Card,プロフィールカード
+1,Goal Activity,My Favorites,私が好きなもの
+1,Goal Activity,I am Kimura Ken.,私は木村ケンです。
+1,Goal Activity,I love anime.,私はアニメが大好きです。
+1,Goal Activity,I am good at math.,私は数学が得意です。
+1,Goal Activity,food,食べ物
+1,Goal Activity,animal,動物
+1,Goal Activity,Day of the week,曜日
+1,Words & Sounds 1,How many pandas do you see?,あなたは何頭のパンダが見えますか。
+1,Words & Sounds 1,I see two pandas.,私は２頭のパンダが見えます。
+1,Words & Sounds 1,How many cats do you see?,あなたは何匹のネコが見えますか。
+1,Words & Sounds 1,How many pets do you have?,あなたは何匹のペットを飼っていますか。
+1,Words & Sounds 1,How many rice balls do you usually eat?,あなたはふつう何個のおにぎりを食べますか。
+1,Words & Sounds 1,How many books do you have at home?,あなたは家に何冊の本を持っていますか。
+1,Words & Sounds 1,I have about fifty books.,私は約50冊の本を持っています。
+1,SPECIAL TOPICS 1,I am Miku.,私はミクです。
+1,SPECIAL TOPICS 1,I like tennis.,私はテニスが好きです。
+1,SPECIAL TOPICS 1,I play rugby every day.,ぼくは毎日ラグビーをします。
+1,SPECIAL TOPICS 1,I am Yusuke.,ぼくはユウスケです。
+1,SPECIAL TOPICS 1,I am not a baseball fan.,私は野球のファンではありません。
+1,SPECIAL TOPICS 1,I like baseball.,ぼくは野球が好きです。
+1,SPECIAL TOPICS 1,I don't like math.,私は数学が好きではありません。
+1,SPECIAL TOPICS 1,I am Mika.,私はミカです。
+1,SPECIAL TOPICS 1,I study English.,英語を勉強しているよ。
+2,1,I can play the guitar.,私はギターをひくことができます。
+2,1,I like Sota. He can play shogi very well.,私は聡太が好きです。彼はとても上手に将棋を指すことができます。
+2,1,I can play the piano.,私はピアノをひくことができます。
+2,1,I can play baseball.,私は野球をすることができます。
+2,1,I can dance well.,私は上手に踊ることができます。
+2,1,I can swim fast.,私は速く泳ぐことができます。
+2,1,He can sing well.,彼は上手に歌うことができます。
+2,1,She can play tennis.,彼女はテニスをすることができます。
+2,1,I can draw pictures.,私は絵を描くことができます。
+2,1,I can run fast.,私は速く走ることができます。
+2,1,I can play the guitar.,私はギターを演奏することができます。
+2,1,She can play soccer well.,彼女は上手にサッカーをすることができます。
+2,1,He can play the violin well.,彼は上手にバイオリンを演奏することができます。
+2,1,smile,ほほえみ
+2,1,voice,声
+2,1,popular,人気のある
+2,1,It is a book about animals.,それは動物についての本です。
+2,1,Please listen to her songs.,彼女の歌を聞いてください。
+2,2,Can you play the guitar?,あなたはギターをひくことができますか。
+2,2,"Yes, I can.",はい、できます。
+2,2,"No, I cannot.",いいえ、できません。
+2,2,Can you read this kanji?,あなたはこの漢字を読むことができますか。
+2,2,Can you make takoyaki?,あなたはたこ焼きを作ることができますか。
+2,2,Can you play the piano?,あなたはピアノをひくことができますか。
+2,2,I can't dance well.,私は上手に踊ることができません。
+2,2,I can't swim fast.,私は速く泳ぐことができません。
+2,2,You can write English.,あなたは英語を書くことができます。
+2,2,Can you write English?,あなたは英語を書くことができますか。
+2,2,I can run fast.,私は速く走ることができます。
+2,2,I cannot run fast.,私は速く走ることができません。
+2,2,Can you play baseball well?,あなたは上手に野球をすることができますか。
+2,2,"No, I can't.",いいえ、できません。
+2,2,She can't drink coffee.,彼女はコーヒーを飲むことができません。
+2,2,teach,…を教える
+2,2,move,動く、移動する
+2,2,on,…の上に[の]
+2,2,Can you teach kendo to me?,私に剣道を教えてくれませんか。
+2,2,Sure.,いいですとも。
+2,学んだことを整理する1,play the guitar,ギターをひく
+2,学んだことを整理する1,sing well,上手に歌う
+2,学んだことを整理する1,dance,踊る
+2,学んだことを整理する1,swim fast,速く泳ぐ
+2,学んだことを整理する1,make yakisoba,焼きそばを作る
+2,学んだことを整理する1,run fast,速く走る
+2,学んだことを整理する1,a cat,ネコ（単数形）
+2,学んだことを整理する1,cats,ネコ（複数形）
+2,学んだことを整理する1,a book,本（単数形）
+2,学んだことを整理する1,books,本（複数形）
+2,学んだことを整理する1,a song,曲（単数形）
+2,学んだことを整理する1,songs,曲（複数形）
+2,学んだことを整理する1,an apple,りんご（単数形）
+2,学んだことを整理する1,apples,りんご（複数形）
+2,学んだことを整理する1,a picture,写真（単数形）
+2,学んだことを整理する1,pictures,写真（複数形）
+2,学んだことを整理する1,a box,箱（単数形）
+2,学んだことを整理する1,boxes,箱（複数形）
+2,学んだことを整理する1,a sandwich,サンドイッチ（単数形）
+2,学んだことを整理する1,sandwiches,サンドイッチ（複数形）
+2,学んだことを整理する1,a watch,腕時計（単数形）
+2,学んだことを整理する1,watches,腕時計（複数形）
+2,学んだことを整理する1,a cherry,さくらんぼ（単数形）
+2,学んだことを整理する1,cherries,さくらんぼ（複数形）
+2,学んだことを整理する1,a library,図書館（単数形）
+2,学んだことを整理する1,libraries,図書館（複数形）
+2,学んだことを整理する2,I can cook well.,私は上手に料理することができます。
+2,学んだことを整理する2,He can draw pictures well.,彼は上手に絵をかくことができます。
+2,学んだことを整理する2,Can you ride a bike?,あなたは自転車に乗ることができますか。
+2,学んだことを整理する2,I can't have animals.,私は動物を飼うことができません。
+2,学んだことを整理する2,You can sing this song.,あなたはこの歌を歌うことができます。
+2,学んだことを整理する2,Can you sing this song?,あなたはこの歌を歌うことができますか。
+2,学んだことを整理する2,I can swim well.,私は上手に泳ぐことができます。
+2,学んだことを整理する2,I cannot swim well.,私は上手に泳ぐことができません。
+2,学んだことを整理する2,She can play the trumpet.,彼女はトランペットを吹くことができます。
+2,学んだことを整理する2,Can you drink green tea?,あなたは緑茶を飲むことができますか。
+2,学んだことを整理する2,"Yes, I can.",はい、できます。
+2,学んだことを整理する2,I cannot make cake.,私はケーキを作れません。
+2,Goal Activity,uncle,おじ
+2,Goal Activity,speak,…を話す
+2,Goal Activity,language,言語
+2,Goal Activity,Mary Smith,マリー・スミス
+2,Goal Activity,music teacher,音楽の教師
+2,Goal Activity,Australia,オーストラリア
+2,Goal Activity,aunt,おば
+2,Goal Activity,story,話
+2,Goal Activity,She is my aunt.,彼女は私のおばです。
+2,Goal Activity,She can play the piano very well.,彼女はとても上手にピアノをひくことができます。
+2,Goal Activity,"She can speak English, Japanese, and Chinese.",彼女は英語、日本語、中国語を話すことができます。
+2,Goal Activity,She is smart and friendly.,彼女は頭がよく、フレンドリーです。
+2,Goal Activity,I love her stories.,私は彼女の話が大好きです。
+2,Words & Sounds 2,When is your birthday?,あなたの誕生日はいつですか。
+2,Words & Sounds 2,My birthday is July 14.,私の誕生日は７月14日です。
+2,Words & Sounds 2,January,１月
+2,Words & Sounds 2,February,２月
+2,Words & Sounds 2,March,３月
+2,Words & Sounds 2,April,４月
+2,Words & Sounds 2,May,５月
+2,Words & Sounds 2,June,６月
+2,Words & Sounds 2,July,７月
+2,Words & Sounds 2,August,８月
+2,Words & Sounds 2,September,９月
+2,Words & Sounds 2,October,10月
+2,Words & Sounds 2,November,11月
+2,Words & Sounds 2,December,12月
+2,Words & Sounds 2,When is the basketball game?,そのバスケットボールの試合はいつですか。
+2,Words & Sounds 2,When is his birthday?,彼の誕生日はいつですか。
+2,Remember? 1,Are you a new student?,あなたは新入生ですか。
+2,Remember? 1,I can play the guitar.,私はギターをひくことができます。
+2,Remember? 1,I do not speak Chinese.,私は中国語を話しません。
+2,Remember? 1,Do you watch soccer?,あなたはサッカーを見ますか。
+2,Remember? 1,He can dance well.,彼は上手に踊ることができます。
+2,Remember? 1,I listen to music at night.,私は夜に音楽を聞きます。
+2,Remember? 1,She cannot read Japanese.,彼女は日本語を読むことができません。
+2,Remember? 1,I am not a baseball fan.,ぼくは野球ファンではありません。
+2,Remember? 1,Can he run fast?,彼は速く走ることができますか。
+3,1,This is a shop.,これは店です。
+3,1,That is a dog.,あれはイヌです。
+3,1,This is not a shop.,これは店ではありません。
+3,1,That is not a dog.,あれはイヌではありません。
+3,1,This is a chair.,これはいすです。
+3,1,That is your umbrella.,あれがあなたのかさです。
+3,1,This is my pencil.,これは私のえんぴつです。
+3,1,That is my house.,あれが私の家です。
+3,1,This is not my notebook.,これは私のノートではありません。
+3,1,That is not a cucumber.,あれはキュウリではありません。
+3,1,This is a gym.,これは体育館です。
+3,1,That is a gym.,あれは体育館です。
+3,1,That is my school.,あれは私の学校です。
+3,1,That is not my school.,あれは私の学校ではありません。
+3,1,This is my bag.,これは私のかばんです。
+3,1,That is my treasure.,あれはぼくの宝物です。
+3,1,This is not a fox.,これはキツネではありません。
+3,1,That's not a shrine.,あれは神社ではありません。
+3,1,open,あいえている、営業中で
+3,1,from,…から
+3,1,o'clock,…時
+3,1,We're at a popular cake shop.,私たちは人気のあるケーキ店にいます。
+3,2,Is this tea?,これは紅茶ですか。
+3,2,"Yes, it is.",はい、そうです。
+3,2,"No, it is not.",いいえ、そうではありません。
+3,2,What is this?,これは何ですか。
+3,2,It is coffee.,それはコーヒーです。
+3,2,Is that your bike?,あれはあなたの自転車ですか。
+3,2,Is this a dog?,これはイヌですか。
+3,2,What is that?,あれは何ですか。
+3,2,What is this? It is a shrine.,これは何ですが。それは神社です。
+3,2,That is a hospital.,あれは病院です。
+3,2,Is that a hospital?,あれは病院ですか。
+3,2,Is this a bird?,これは鳥ですか。
+3,2,Is this your computer?,これはあなたのコンピューターですか。
+3,2,"No, it is not.",いいえ、ちがいます。
+3,2,What is that? It is a gym.,あれは何ですか。それは、体育館です。
+3,2,dictionary,辞書
+3,2,gift,贈り物
+3,2,aunt,おば
+3,2,wrong,まちがった
+3,2,traditional,伝統的な
+3,2,almost,ほとんど
+3,2,I can speak English a little.,私は少し英語を話せます。
+3,3,Who is your favorite character?,あなたのお気に入りのキャラクターはだれですか。
+3,3,Harry. I like him very much.,ハリーです。私は彼が（彼を）とても好きです。
+3,3,Who is that?,あちらはだれですか。
+3,3,Who is this?,こちらはだれですか。
+3,3,Who is your hero? My aunt. I like her very much.,あなたのヒーローはだれですか。私のおばです。私は彼女がとても好きです。
+3,3,That is a new teacher.,あれは新しい先生です。
+3,3,Who is she?,彼女はだれですか。
+3,3,She is a famous dancer.,彼女は有名なダンサーです。
+3,3,I love him.,私は彼を愛しています。
+3,3,Do you know her?,あなたは彼女を知っていますか。
+3,3,know,…を知っている
+3,3,character,登場人物
+3,3,idea,考え、アイデア
+3,3,I like dogs very much.,私はイヌがとても好きです。
+3,3,"I love ice cream. Me, too.",私はアイスクリームが大好きです。私も。
+3,学んだことを整理する1,this,これ
+3,学んだことを整理する1,that,あれ
+3,学んだことを整理する1,he,彼は[が]
+3,学んだことを整理する1,his,彼の
+3,学んだことを整理する1,him,彼を[に]
+3,学んだことを整理する1,she,彼女は[が]
+3,学んだことを整理する1,her,彼女の、彼女を[に]
+3,学んだことを整理する1,scary,恐ろしい
+3,学んだことを整理する1,friendly,親しみのある
+3,学んだことを整理する1,kind,親切な
+3,学んだことを整理する1,funny,おもしろい
+3,学んだことを整理する1,smart,頭のよい
+3,学んだことを整理する2,This is my pen.,これは私のペンです。
+3,学んだことを整理する2,Is that your notebook?,あれはあなたのノートですか。
+3,学んだことを整理する2,Is that your school?,あれはあなたの学校ですか。
+3,学んだことを整理する2,"Yes, it is.",はい、そうです。
+3,学んだことを整理する2,"No, it is not.",いいえ、ちがいます。
+3,学んだことを整理する2,That is not a restaurant.,あれはレストランではありません。
+3,学んだことを整理する2,Who is your favorite singer?,あなたのお気に入りの歌手はだれですか。
+3,学んだことを整理する2,Do you know him?,あなたは彼を知っていますか。
+3,学んだことを活用する1,thing,もの
+3,学んだことを活用する1,grandfather,祖父
+3,学んだことを活用する1,also,さらに
+3,学んだことを活用する1,Gonzales,ゴンザレス
+3,学んだことを活用する1,family,家族
+3,学んだことを活用する1,walk,歩く
+3,学んだことを活用する1,together,いっしょに
+3,学んだことを活用する1,cozy,居心地のいい
+3,学んだことを活用する1,there,そこで
+3,学んだことを活用する1,This is my favorite thing.,これが私のお気に入りのものです。
+3,学んだことを活用する1,"It is an old violin, and I play it.",それは古いバイオリン、そして私はそれをひきます。
+3,学んだことを活用する1,My violin teacher is my grandfather.,私のバイオリンの先生は私の祖父です。
+3,学んだことを活用する1,I go to his house for the lessons on Sundays.,私は毎週日曜日にレッスンのために彼の家に行きます。
+3,学んだことを活用する1,"Also, I practice it in my house every day.",さらに私は毎日、私の家でそれの練習をします。
+3,学んだことを活用する1,This is Gonzales.,これはゴンザレスです。
+3,学んだことを活用する1,He is my friend and my family.,彼は私の友達で私の家族です。
+3,学んだことを活用する1,He is a really smart Shiba Inu.,彼は本当に頭のよい柴犬です。
+3,学んだことを活用する1,We often walk to Kaede Park together.,私たちはよくかえで公園にいっしょに行きます。
+3,学んだことを活用する1,That park is very big and cozy.,あの公園はとても大きく、居心地がよいです。
+3,学んだことを活用する1,We play soccer there.,私たちはそこでサッカーをします。
+3,学んだことを活用する1,I always enjoy it!,私はいつもそれを楽しみます！
+3,学んだことを活用する2,Look. That is a hospital.,見て。あれは病院です。
+3,学んだことを活用する2,Hospital? It's big.,病院？それは大きいですね。
+3,学んだことを活用する2,Can you see Tokyo Tower?,東京タワーが見えますか？
+3,学んだことを活用する2,"Yes. I can see a big station, too.",はい。大きな駅も見えます。
+3,学んだことを活用する2,"That's Tokyo Station, right?",あれは東京駅ですよね。
+3,学んだことを活用する2,No. It's Shinagawa Station.,いいえ。それは品川駅です。
+3,学んだことを活用する2,What is this?,これは何ですか。
+3,学んだことを活用する2,"It's dorayaki, one of Japanese sweets.",それは、和菓子のひとつ、どら焼きです。
+3,学んだことを活用する2,I like it very much.,私はそれがとても好きです。
+3,学んだことを活用する2,What is your favorite food?,あなたの好きな食べ物は何？
+3,学んだことを活用する2,It's pizza.,ピザです。
+3,学んだことを活用する2,Who is this man?,この男性はだれ？
+3,学んだことを活用する2,He's your father!,彼はあなたのお父さん！
+3,学んだことを活用する2,He looks different now.,今とちがうように見える。
+3,Goal Activity,room,部屋
+3,Goal Activity,maybe,たぶん
+3,Goal Activity,carry,…を運ぶ
+3,Goal Activity,My treasure is big.,私の宝物は大きいです。
+3,Goal Activity,It is black.,それは黒いです。
+3,Goal Activity,I play music on it.,私はそれで音楽を演奏します。
+3,Goal Activity,My treasure is small.,私の宝物は小さいです。
+3,Goal Activity,It is long.,それは長いです。
+3,Goal Activity,I write letters with it.,私はそれで手紙を書きます。
+3,Goal Activity,It is hard.,それはかたいです。
+3,Goal Activity,I ride it.,私はそれに乗ります。
+3,Take Action!,man,男性
+3,Take Action!,street,通り
+3,Take Action!,turn,曲がる
+3,Take Action!,corner,（曲がり）かど
+3,Take Action!,Excuse me. Where is Midori Hospital?,すいません。みどり病院はどこですか。
+3,Take Action!,How can I get to Midori Station?,どうやってみどり駅に行くことができますか。
+3,Take Action!,Go straight on this street.,この通りをまっすぐに進んでください。
+3,Take Action!,Turn left at the third corner.,３つ目のかどを左に曲がってください。
+3,Take Action!,Excuse me. How can I get to Sakura Museum?,すいません。さくら博物館はどうやっていけばよいのですか？
+3,Take Action!,Then turn right at the second corner.,それから２つ目のかどを右に曲がって。
+3,Take Action!,It's on your left.,それはあなたの左側です。
+3,Take Action!,I see. Thank you.,わかりました。ありがとう。
+3,SPECIAL TOPICS 2,I am Taku.,私はタクです。
+3,SPECIAL TOPICS 2,You are kind.,あなたはやさしいですね。
+3,SPECIAL TOPICS 2,He is my uncle.,彼は私のおじです。
+3,SPECIAL TOPICS 2,We are good friends.,私たちは親友です。
+3,SPECIAL TOPICS 2,This book is popular.,この本は人気があります。
+3,SPECIAL TOPICS 2,You are my hero.,あなたは私のヒーローです。
+3,SPECIAL TOPICS 2,This is my pen.,これは私のペンです。
+3,SPECIAL TOPICS 2,That is a restaurant.,あれはレストランです。
+3,SPECIAL TOPICS 2,Mika is good at Chinese.,ミカは中国語が上手です。
+3,SPECIAL TOPICS 2,She is a hip-hop dancer.,彼女はヒップホップダンサーです。
+3,SPECIAL TOPICS 2,My dog is very cute.,私のイヌはとてもかわいいです。
+3,SPECIAL TOPICS 2,We are in the tennis club.,私たちはテニス部です。
+4,1,I go to Okinawa every summer.,私は毎年夏に沖縄に行きます。
+4,1,I went to Okinawa last summer.,私は昨年の夏に沖縄に行きました。
+4,1,I enjoy swimming.,私は水泳を楽しみます。
+4,1,I enjoyed swimming.,私は水泳を楽しみました。
+4,1,I went to the sea last Sunday.,私はこの前の日曜日、海に行きました。
+4,1,I enjoyed the summer festival this year.,私は今年、夏祭りを楽しみました。
+4,1,I ate curry last weekend.,私は先週末、カレーを食べました。
+4,1,I saw lots of people at the station.,私は駅でたくさんの人を見ました。
+4,1,I went to the library last Sunday.,私はこの前の日曜日、図書館に行きました。
+4,1,I ate grilled fish last night.,私は昨晩、焼き魚を食べました。
+4,1,I saw Mika last weekend.,私は先週末、ミカに会いました。
+4,1,The curry was delicious.,そのカレーはおいしかったです。
+4,1,family,家族
+4,1,view,景色、ながめ
+4,1,top,頂上
+4,1,thick,分厚い
+4,1,year,年、1年
+4,1,also,…もまた
+4,1,I saw fireworks last summer.,私は昨年の夏、花火を見ました。
+4,1,I went to Tokyo by myself.,私は独力で東京に行きました。

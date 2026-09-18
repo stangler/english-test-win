@@ -39,22 +39,22 @@ english-test-app/
 ├── english_test.html     # アプリ本体（UI + ロジック、単一ファイル）
 ├── json/
 │   └── words-data.js     # window.WORDS = [...] 形式の単語データ（build.pyで生成）
-├── xlsx/
-│   └── EIGO_NO_PARTNERに出てくる文.xlsx  # 出典データ
-├── build.py               # xlsx → json/words-data.js 変換スクリプト
+├── csv/
+│   └── EIGO_NO_PARTNERに出てくる文.csv  # 出典データ
+├── build.py               # csv → json/words-data.js 変換スクリプト
 ├── pyproject.toml         # プロジェクト設定（uv管理用）
 └── README.md
 ```
 
 ## 単語データの再生成
 
-xlsx を差し替えた場合は再生成してください。
+csv を差し替えた場合は再生成してください。
 
 ```bash
 uv run python build.py
 ```
 
-`xlsx/` 内のExcelファイル（Lesson / Part / 英語 / 日本語の列構成）を読み込み、
+`csv/` 内のCSVファイル（Lesson / Part / 英語 / 日本語の列構成）を読み込み、
 `json/words-data.js` を上書き生成します。別解展開（人称代名詞・可能形動詞など）も
 `translation-test-app` の `build.py` と同じロジックを流用しています。
 

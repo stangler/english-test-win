@@ -10,9 +10,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## 重要なファイル
 
 - `english_test.html` — アプリ本体。UI（CSS）、データ読込、クイズロジック、履歴管理が単一ファイルに収まっている
-- `json/words-data.js` — `window.WORDS` 配列。xlsx から build.py で生成される単語データ
-- `build.py` — Excel(xlsx) → JSデータ変換スクリプト
-- `xlsx/EIGO_NO_PARTNERに出てくる文.xlsx` — 出典データ（Lesson / Part / 英語 / 日本語 の4列構成）
+- `json/words-data.js` — `window.WORDS` 配列。csv から build.py で生成される単語データ
+- `build.py` — CSV → JSデータ変換スクリプト
+- `csv/` 内のCSVファイル — 出典データ（Lesson / Part / 英語 / 日本語 の4列構成）
 - `.devcontainer/devcontainer.json` + `Dockerfile` — Dev Container 環境（Node.js + pnpm）
 
 ## コマンド
@@ -23,17 +23,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | 依存関係のインストール | `pnpm install` |
 
 - Python 環境は `uv` で管理（`.python-version` = 3.13、`pyproject.toml`、`uv.lock`）
-- 依存: `openpyxl>=3.1.5` のみ
+- 依存: なし（標準ライブラリ csv のみ）
 
 ## アーキテクチャ
 
 ### データフロー
 
 ```
-xlsx/出典データ → build.py → json/words-data.js → english_test.html (window.WORDS)
+csv/出典データ → build.py → json/words-data.js → english_test.html (window.WORDS)
 ```
 
-1. `build.py` が `xlsx/` 内のExcelを読み、別解展開（人称代名詞・可能形動詞など）を行った上で `window.WORDS = [...]` 形式のJSファイルを生成
+1. `build.py` が `csv/` 内のCSVを読み、別解展開（人称代名詞・可能形動詞など）を行った上で `window.WORDS = [...]` 形式のJSファイルを生成
 2. `english_test.html` が `<script src="json/words-data.js">` でデータを読込
 
 ### english_test.html の構成（1つのファイル内）

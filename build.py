@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-xlsx → json/words-data.js 変換スクリプト
+csv → json/words-data.js 変換スクリプト
 列構成: Lesson / Part / 英語 / 日本語
 
 日本語→英語クイズ専用。english-word-typing-app と同様に
@@ -8,11 +8,11 @@ window.WORDS 形式の JS ファイルとして出力するため、file:// で
 直接 index.html を開いても CORS エラーなく動作する。
 """
 
+import csv
 import json
 import re
 import sys
 from pathlib import Path
-import openpyxl
 
 
 def parse_ja_answer(ja_text: str) -> list[str]:
@@ -137,30 +137,30 @@ def expand_answers(answers: list[str]) -> list[str]:
     return result
 
 
-def build(xlsx_path: Path, out_path: Path):
-    wb = openpyxl.load_workbook(xlsx_path, read_only=True)
-    ws = wb.active
-
-    rows = list(ws.iter_rows(values_only=True))
+def build(csv_path: Path, out_path: Path):
+    with csv_path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.reader(f)
+        rows = list(reader)
 
     data = []
     for row in rows[1:]:
         if not any(row):
             continue
+        row = row + [""] * (4 - len(row))
         lesson_raw, part_raw, en, ja = row[0], row[1], row[2], row[3]
 
         if not en or not ja:
             continue
 
-        lesson = str(lesson_raw).strip() if lesson_raw is not None else ""
-        part = str(part_raw).strip() if part_raw is not None and str(part_raw).strip() != "" else ""
+        lesson = lesson_raw.strip() if lesson_raw is not None else ""
+        part = part_raw.strip() if part_raw is not None and part_raw.strip() != "" else ""
         try:
             part = str(int(float(part))) if part else ""
         except (ValueError, TypeError):
             pass
 
-        ja_str = str(ja).strip()
-        en_str = str(en).strip()
+        ja_str = ja.strip()
+        en_str = en.strip()
 
         ja_answers = parse_ja_answer(ja_str)
         ja_answers = expand_answers(ja_answers)
@@ -173,8 +173,6 @@ def build(xlsx_path: Path, out_path: Path):
             "ja_answers": ja_answers,
         })
 
-    wb.close()
-
     out_path.parent.mkdir(parents=True, exist_ok=True)
     js = "window.WORDS = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
     out_path.write_text(js, encoding="utf-8")
@@ -183,9 +181,10 @@ def build(xlsx_path: Path, out_path: Path):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    xlsx_args = [a for a in args if not a.startswith("--")]
+    csv_args = [a for a in args if not a.startswith("--")]
 
-    xlsx = Path(xlsx_args[0]) if xlsx_args else Path("xlsx/EIGO_NO_PARTNERに出てくる文.xlsx")
+    default_csv = next(Path("csv").glob("*.csv"), Path("csv/EIGO_NO_PARTNERに出てくる文.csv"))
+    csv_file = Path(csv_args[0]) if csv_args else default_csv
     out = Path("json/words-data.js")
 
-    build(xlsx, out)
+    build(csv_file, out)
