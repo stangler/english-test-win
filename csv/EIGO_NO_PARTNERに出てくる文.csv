@@ -125,15 +125,15 @@ Starter,,"No, I'm not.",いいえ、違います。
 1,Words & Sounds 1,How many rice balls do you usually eat?,あなたはふつう何個のおにぎりを食べますか。
 1,Words & Sounds 1,How many books do you have at home?,あなたは家に何冊の本を持っていますか。
 1,Words & Sounds 1,I have about fifty books.,私は約50冊の本を持っています。
-1,SPECIAL TOPICS 1,I am Miku.,私はミクです。
-1,SPECIAL TOPICS 1,I like tennis.,私はテニスが好きです。
-1,SPECIAL TOPICS 1,I play rugby every day.,ぼくは毎日ラグビーをします。
-1,SPECIAL TOPICS 1,I am Yusuke.,ぼくはユウスケです。
-1,SPECIAL TOPICS 1,I am not a baseball fan.,私は野球のファンではありません。
-1,SPECIAL TOPICS 1,I like baseball.,ぼくは野球が好きです。
-1,SPECIAL TOPICS 1,I don't like math.,私は数学が好きではありません。
-1,SPECIAL TOPICS 1,I am Mika.,私はミカです。
-1,SPECIAL TOPICS 1,I study English.,英語を勉強しているよ。
+1,SPECIAL TOPICS,I am Miku.,私はミクです。
+1,SPECIAL TOPICS,I like tennis.,私はテニスが好きです。
+1,SPECIAL TOPICS,I play rugby every day.,ぼくは毎日ラグビーをします。
+1,SPECIAL TOPICS,I am Yusuke.,ぼくはユウスケです。
+1,SPECIAL TOPICS,I am not a baseball fan.,私は野球のファンではありません。
+1,SPECIAL TOPICS,I like baseball.,ぼくは野球が好きです。
+1,SPECIAL TOPICS,I don't like math.,私は数学が好きではありません。
+1,SPECIAL TOPICS,I am Mika.,私はミカです。
+1,SPECIAL TOPICS,I study English.,英語を勉強しているよ。
 2,1,I can play the guitar.,私はギターをひくことができます。
 2,1,I like Sota. He can play shogi very well.,私は聡太が好きです。彼はとても上手に将棋を指すことができます。
 2,1,I can play the piano.,私はピアノをひくことができます。
@@ -385,18 +385,18 @@ Starter,,"No, I'm not.",いいえ、違います。
 3,Take Action!,Then turn right at the second corner.,それから２つ目のかどを右に曲がって。
 3,Take Action!,It's on your left.,それはあなたの左側です。
 3,Take Action!,I see. Thank you.,わかりました。ありがとう。
-3,SPECIAL TOPICS 2,I am Taku.,私はタクです。
-3,SPECIAL TOPICS 2,You are kind.,あなたはやさしいですね。
-3,SPECIAL TOPICS 2,He is my uncle.,彼は私のおじです。
-3,SPECIAL TOPICS 2,We are good friends.,私たちは親友です。
-3,SPECIAL TOPICS 2,This book is popular.,この本は人気があります。
-3,SPECIAL TOPICS 2,You are my hero.,あなたは私のヒーローです。
-3,SPECIAL TOPICS 2,This is my pen.,これは私のペンです。
-3,SPECIAL TOPICS 2,That is a restaurant.,あれはレストランです。
-3,SPECIAL TOPICS 2,Mika is good at Chinese.,ミカは中国語が上手です。
-3,SPECIAL TOPICS 2,She is a hip-hop dancer.,彼女はヒップホップダンサーです。
-3,SPECIAL TOPICS 2,My dog is very cute.,私のイヌはとてもかわいいです。
-3,SPECIAL TOPICS 2,We are in the tennis club.,私たちはテニス部です。
+3,SPECIAL TOPICS,I am Taku.,私はタクです。
+3,SPECIAL TOPICS,You are kind.,あなたはやさしいですね。
+3,SPECIAL TOPICS,He is my uncle.,彼は私のおじです。
+3,SPECIAL TOPICS,We are good friends.,私たちは親友です。
+3,SPECIAL TOPICS,This book is popular.,この本は人気があります。
+3,SPECIAL TOPICS,You are my hero.,あなたは私のヒーローです。
+3,SPECIAL TOPICS,This is my pen.,これは私のペンです。
+3,SPECIAL TOPICS,That is a restaurant.,あれはレストランです。
+3,SPECIAL TOPICS,Mika is good at Chinese.,ミカは中国語が上手です。
+3,SPECIAL TOPICS,She is a hip-hop dancer.,彼女はヒップホップダンサーです。
+3,SPECIAL TOPICS,My dog is very cute.,私のイヌはとてもかわいいです。
+3,SPECIAL TOPICS,We are in the tennis club.,私たちはテニス部です。
 4,1,I go to Okinawa every summer.,私は毎年夏に沖縄に行きます。
 4,1,I went to Okinawa last summer.,私は昨年の夏に沖縄に行きました。
 4,1,I enjoy swimming.,私は水泳を楽しみます。
@@ -417,3 +417,310 @@ Starter,,"No, I'm not.",いいえ、違います。
 4,1,also,…もまた
 4,1,I saw fireworks last summer.,私は昨年の夏、花火を見ました。
 4,1,I went to Tokyo by myself.,私は独力で東京に行きました。
+4,2,Where do you want to go?,あなたはどこに行きたいですか。
+4,2,I want to go to Hokkaido.,私は北海道に行きたいです。
+4,2,Where do you practice soccer?,あなたはどこでサッカーを練習しますか。
+4,2,I want to eat shaved ice.,私はかき氷を食べたいです。
+4,2,We want to go to the beach.,私たちはビーチに行きたいです。
+4,2,Where do you want to go?,あなたはどこに行きたいですか。
+4,2,Where do you study English?,あなたはどこで英語を勉強しますか。
+4,2,I want to play baseball.,私は野球がしたいです。
+4,2,Where do you practice tennis?,あなたはどこでテニスの練習をしますか。
+4,2,I want to see big fireworks.,私は大きな花火を見たいです。
+4,2,Where do you want to go?,あなたはどこに行きたいですか。
+4,2,I want to go to the zoo.,私は動物園に行きたいです。
+4,2,baby,赤ちゃん
+4,2,cousin,いとこ
+4,2,Korean,韓国の
+4,2,What's Seattle Dog?,シアトルドッグとは何ですか。
+4,学んだことを整理する1,do my homework,宿題をする
+4,学んだことを整理する1,listen to music,音楽を聞く
+4,学んだことを整理する1,see fire works,花火を見る
+4,学んだことを整理する1,enjoy fishing,つりを楽しむ
+4,学んだことを整理する1,watch TV,テレビを見る
+4,学んだことを整理する1,go to the library,図書館へ行く
+4,学んだことを整理する1,get up late,遅く起きる
+4,学んだことを整理する1,use a computer,コンピュータを使う
+4,学んだことを整理する1,take a picture,写真を撮る
+4,学んだことを整理する2,I saw fireworks last summer.,私は昨年の夏、花火を見ました。
+4,学んだことを整理する2,We enjoyed swimming last weekend.,私たちは先週末、水泳を楽しみました。
+4,学んだことを整理する2,Where do you study Japanese?,あなたはどこで日本語を勉強しますか。
+4,学んだことを整理する2,I ate curry and rice.,私はカレーライスを食べました。
+4,学んだことを整理する2,The view was so beautiful.,景色がとてもきれいでした。
+4,学んだことを整理する2,I want to drink water.,私は水を飲みたい。
+4,学んだことを整理する2,I enjoyed shopping last Sunday.,私はこの前の日曜日、買い物を楽しみました。
+4,学んだことを整理する2,I went to Australia last year.,私は昨年、オーストラリアに行きました。
+4,学んだことを整理する2,Where do you want to go?,あなたはどこに行きたいですか。
+4,学んだことを活用する1,My friend and I enjoyed many places in town, and I really recommend these three!!!,私の友達と私は町のたくさんの場所を楽しみました、そして私はこれらの３つを本当におすすめします。
+4,学んだことを活用する1,Quiet Beautiful Shrine,静かな美しい神社
+4,学んだことを活用する1,We went to a shrine near the lake.,私たちは湖の近くの神社へ行きました。
+4,学んだことを活用する1,It was beautiful, and I liked the dog statue under the small torii.,それは美しく、そして私は小さな鳥居の下の犬の石像が好きです。
+4,学んだことを活用する1,That place is far from the station.,その場所は駅から遠いです。
+4,学んだことを活用する1,We went there by bus.,私たちはそこへバスで行きました。
+4,学んだことを活用する1,Cool Old Street,クールな古い通り
+4,学んだことを活用する1,We found an old street behind the station.,私たちは駅の裏に古い通りを見つけました。
+4,学んだことを活用する1,It was cool.,それはクールでした。
+4,学んだことを活用する1,You can go there by rental bicycle, but you can also walk.,あなたはそこへ貸し出しの自転車で行くことができます、しかしあなたは歩くこともできます。
+4,学んだことを活用する1,Cozy Nice Restaurant,居心地のよい素敵なレストラン
+4,学んだことを活用する1,We ate lunch at a nice restaurant by the sea.,私たちは海のそばの素敵なレストランで昼食を食べました。
+4,学んだことを活用する1,The spaghetti was so good.,スパゲッティがとてもおいしかったです。
+4,学んだことを活用する1,The buses don't go there, but you can walk from the station.,バスはそこに行きません、しかしあなたは駅から歩くことができます。
+4,学んだことを活用する2,Last weekend, I went to Lake Kaede.,先週末、私はかえで湖に行きました。
+4,学んだことを活用する2,I enjoyed camping with my family.,私は私の家族といっしょにキャンプを楽しみました。
+4,学んだことを活用する2,We saw beautiful flowers there.,私たちはそこで美しい花を見ました。
+4,学んだことを活用する2,We made curry and rice and ate it.,私たちはカレーライスを作って、それを食べました。
+4,学んだことを活用する2,It was so good.,それがとてもおいしかったです。
+4,学んだことを活用する2,Today, I went to the summer festival with Mika and Lisa.,今日、私は夏祭りにミカとリサといっしょに行きました。
+4,学んだことを活用する2,We ate takoyaki, and it was delicious.,私たちはたこ焼きを食べました、そしてそれはおいしかったです。
+4,学んだことを活用する2,At the end of the festival, we saw ...,お祭りの終わりに、私たちは見ました。
+4,学んだことを活用する2,The Research of the Month,今月の調査
+4,学んだことを活用する2,Where do you want to go during the summer vacation?,夏休みの間にどこに行きたいですか。
+4,学んだことを活用する2,In this class, 8 students want to go to Hokkaido.,このクラスでは8人の生徒が北海道に行きたいです。
+4,学んだことを活用する2,16 students want to go to Okinawa.,16人の生徒が沖縄に行きたいです。
+4,学んだことを活用する2,other,その他
+4,Goal Activity,I want to go to the beach.,私はビーチに行きたい。
+4,Goal Activity,I want to eat peach ice cream.,私は桃のアイスクリームを食べたい。
+4,Goal Activity,I want to enjoy swimming in the sea.,私は海で泳ぐのを楽しみたい。
+4,Goal Activity,I want to go to a mountain.,私は山に行きたい。
+4,Goal Activity,I want to eat curry and rice., 私はカレーライスを食べたい。
+4,Goal Activity,I want to enjoy camping with my family.,私は私の家族といっしょにキャンプを楽しみたい。
+4,Take Action!,cleark,店員
+4,Take Action!,anything,[疑問文で]何か
+4,Take Action!,order,注文、注文の品
+4,Take Action!,What would you like?,何になさいますか。
+4,Take Action!,I'd like a green salad.,グリーンサラダをお願いします。
+4,Take Action!,How much is this?,これはいくらですか。
+4,Take Action!,It's fifteen dollars.,15ドルです。
+4,Take Action!,What would you like?,何になさいますか。
+4,Take Action!,I'd like a cheeseburger.,チーズバーガーをお願いします。
+4,Take Action!,Do you want anything with it?,それといっしょに何か欲しいものはありますか。
+4,Take Action!,Um, cola and chocolate cake, please.,うーん、コーラとチョコレートケーキをお願いします。
+4,Take Action!,How much is the total?,合計でいくらですか。
+4,Take Action!,It's thirteen dollars.,13ドルです。
+4,Take Action!,Here you are.,はい、どうぞ。
+4,Take Action!,Thank you.,ありがとうございました。
+4,Take Action!,Please pick up your order at the counter.,ご注文の品をカウンターでお受け取りください。
+4,Take Action!,Humburger,ハンバーガー
+4,Take Action!,Fried chicken,フライドチキン
+4,Take Action!,French fries,フレンチフライ
+4,Take Action!,Orange juice,オレンジジュース
+4,Take Action!,Coffee,コーヒー
+4,SPECIAL TOPICS,I am a building.,私は建物です。
+4,SPECIAL TOPICS,Students come to me and study.,生徒たちは私に来て、勉強します。
+4,SPECIAL TOPICS,I am white.,私は白いです。
+4,SPECIAL TOPICS,I'm very cold.,私はとても冷たいです。
+4,SPECIAL TOPICS,I live in winter.,私は冬に生活します。
+4,SPECIAL TOPICS,I live in the sky.,私は空で生活します。
+4,SPECIAL TOPICS,I have seven colors.,私は七つの色を持っています。
+4,SPECIAL TOPICS,You can often see me after the rain.,雨の後に、あなたはしばしば私を見ることができます。
+4,SPECIAL TOPICS,I am brown.,私は茶色です。
+4,SPECIAL TOPICS,You don't eat me.,あなたは私を食べることはできません。
+4,SPECIAL TOPICS,You can drink me.,あなたは私を飲むことができます。
+4,SPECIAL TOPICS,I am not "tea".,私は「お茶」ではないです。
+4,SPECIAL TOPICS,Children love me.,子供たちは私を愛しています。
+4,SPECIAL TOPICS,They can get money.,彼らはお金をもらうことができます。 
+4,SPECIAL TOPICS,I come in January.,私は1月に来ます。
+4,SPECIAL TOPICS,Children love me, too.,子供たちは私のことも愛しています。
+4,SPECIAL TOPICS,They can get nice presents.,彼らはよいプレゼントをもらうことができます。
+4,SPECIAL TOPICS,I come in December.,私は12月に来ます。
+5,1,My mother lives in London.,私の母はロンドンに住んでいます。
+5,1,My father makes breakfast every day.,私の父は毎日、朝食を作ります。
+5,1,Ken plays soccer every day.,ケンは毎日、サッカーをします。
+5,1,Lisa likes cats very much.,リサはネコがとても好きです。
+5,1,He studies math every day.,彼は毎日、数学を勉強します。
+5,1,Mika reads a book every day.,ミカは毎日、本を読みます。
+5,1,Ken watched TV every day.,ケンは毎日、テレビを見ます。
+5,1,My cousin lives in Tokyo.,私のいとこは東京に住んでいます。
+5,1,My father goes to bed at ten.,私の父は10時に寝ます。
+5,1,My uncle teaches P.E.,私のおじは体育を教えています。
+5,1,I go to the park every day.,私は毎日、公園に行きます。
+5,1,Mike goes to the park every day.,マイクは毎日、公園に行きます。
+5,1,You drink tea.,あなたはお茶を飲みます。
+5,1,My mother drinks tea.,私の母はお茶を飲みます。
+5,1,Lisa speaks English well.,リサは英語を上手に話します。
+5,1,She likes cooking.,彼女は料理をするのが好きです。
+5,1,Mr. Smith sings every song well.,スミス先生はすべての歌を上手に歌います。
+5,1,Mika and I walk to school.,ミカと私は歩いて学校に行きます。
+5,1,live,住む、住んでいる
+5,1,wear,…を着ている
+5,1,mother,母親
+5,1,father,父親
+5,1,places,場所
+5,1,their,彼らの、それらの
+5,1,She likes small animals like rabbits.,彼女はウサギのような小さい動物が好きです。
+5,2,Does Ann live in London?,アンはロンドンに住んでいますか。
+5,2,Yes, she does.,はい、住んでいます。
+5,2,Does your father play baseball?,あなたのお父さんは野球をしますか。
+5,2,Does Ken like chocolate?,ケンはチョコレートが好きですか。
+5,2,My father does not watch soccer.,私の父はサッカーを見ません。
+5,2,Does she study in London?,彼女はロンドンで勉強していますか。
+5,2,Yes, she does.,はい、勉強しています。
+5,2,Lisa doesn't play tennis.,リサはテニスをしません。
+5,2,Mike speaks Japanese.,マイクは日本語を話します。
+5,2,Does Mike speak Japanese?,マイクは日本語を話しますか。
+5,2,Lisa watches tennis on TV.,リサはテレビでテニスを見ます。
+5,2,Lisa does not watch tennis on TV.,リサはテレビでテニスを見ません。
+5,2,Does your brother play tennis?,あなたのお兄さんはテニスをしますか。
+5,2,Does your dog like apples?,あなたのイヌはリンゴが好きですか。
+5,2,She does not speak Japanese.,彼女は日本語を話しません。
+5,2,My cat doesn't like fish.,私のネコは魚が好きではありません。
+5,2,brother,兄、弟
+5,2,concert,コンサート
+5,2,performance,演奏、演技
+5,2,He watches movies on the internet.,彼はインターネットで映画を見ます。
+5,2,Does Peter play the bagpipes in concerts?,ピーターはコンサートでバグパイプを演奏しますか。
+5,2,Yes, he does.,はい、演奏します。
+5,2,Can Riku watch Peter's performance on TV?,リクはピーターの演奏をテレビで見ることができますか。
+5,2,No, he cannot.,いいえ、できません。
+5,3,Whose towl is this?,これはだれのタオルですか。
+5,3,It is mine.,それは私のものです。
+5,3,Whose bag is this?,これはだれのかばんですか。
+5,3,Whose pen is this?,これはだれのペンですか。
+5,3,Whose camera is that?,あれはだれのカメラですか。
+5,3,It is mine.,それは私のものです。
+5,3,Whose eraser is this?,これはだれの消しゴムですか。
+5,3,It is Mike's.,それはマイクのものです。
+5,3,Whose father is that?,あちらはだれのお父さんですか。
+5,3,That is Mike's.,あちらはマイクのお父さんです。
+5,Goal Activity,series,シリーズ
+5,Goal Activity,detective,探偵
+5,Goal Activity,thing,物、事
+5,Goal Activity,carefully,注意深く
+5,Goal Activity,strange,奇妙な、不思議な
+5,Goal Activity,fact,事実
+5,Goal Activity,solve,（問題などを）解決する
+5,Goal Activity,difficult,難しい
+5,Goal Activity,problem,問題
+5,Goal Activity,Please look at this picure carefully.,この写真を注意深く見てください。
+5,Goal Activity,many strange facts,たくさんの奇妙な事実
+5,Goal Activity,What does Sherlock Holmes solve?,シャーロックホームズは何を解決する？
+5,Goal Activity,He solves many difficult problems.,彼はたくさんの難しい問題を解決する。
+5,Goal Activity,She reads people's mind.,彼女は人の心を読みます。
+5,学んだことを整理する1,eat,…を食べる
+5,学んだことを整理する1,eats,…を食べる（s）
+5,学んだことを整理する1,play,（スポーツなどを）する
+5,学んだことを整理する1,plays,（スポーツなどを）する（s）
+5,学んだことを整理する1,make,…を作る
+5,学んだことを整理する1,makes,…を作る（s）
+5,学んだことを整理する1,walk,（犬などを）散歩させる
+5,学んだことを整理する1,walks,（犬などを）散歩させる（s）
+5,学んだことを整理する1,drink,…を飲む
+5,学んだことを整理する1,drinks,…を飲む（s）
+5,学んだことを整理する1,read,（…を）読む
+5,学んだことを整理する1,reads,（…を）読む（s）
+5,学んだことを整理する1,know,（…を）知っている
+5,学んだことを整理する1,knows,（…を）知っている（s）
+5,学んだことを整理する1,take,（写真などを）撮る
+5,学んだことを整理する1,takes,（写真などを）撮る（s）
+5,学んだことを整理する1,live,住んでいる
+5,学んだことを整理する1,lives,住んでいる（s）
+5,学んだことを整理する1,speak,（ある言語を）話す
+5,学んだことを整理する1,speaks,（ある言語を）話す（s）
+5,学んだことを整理する1,like,…を好む
+5,学んだことを整理する1,likes,…を好む（s）
+5,学んだことを整理する1,practice,（…を）練習する
+5,学んだことを整理する1,practices,（…を）練習する（s）
+5,学んだことを整理する1,love,…が大好きである
+5,学んだことを整理する1,loves,…が大好きである（s）
+5,学んだことを整理する1,do,…をする
+5,学んだことを整理する1,does,…をする（s）
+5,学んだことを整理する1,go,行く
+5,学んだことを整理する1,goes,行く（s）
+5,学んだことを整理する1,watch,…を（注意して）見る
+5,学んだことを整理する1,watches,…を（注意して）見る（s）
+5,学んだことを整理する1,teach,…を教える
+5,学んだことを整理する1,teaches,…を教える（s）
+5,学んだことを整理する1,study,（…を）勉強する
+5,学んだことを整理する1,studies,（…を）勉強する（s）
+5,学んだことを整理する2,I live in Osaka.,私は大阪に住んでいます。
+5,学んだことを整理する2,Mr. Smith lives in Osaka.,スミス氏は大阪に住んでいます。
+5,学んだことを整理する2,My brother likes soccer.,私の兄はサッカーが好きです。
+5,学んだことを整理する2,My brother doesn't like soccer.,私の兄はサッカーが好きではありません。
+5,学んだことを整理する2,Mika runs in the morning.,ミカは朝走ります。
+5,学んだことを整理する2,Does Mika run in the morning?,ミカは朝走りますか。
+5,学んだことを整理する2,Does he play soccer every day?,彼は毎日、サッカーをしますか。
+5,学んだことを整理する2,Do they play soccer every day?,彼らは毎日、サッカーをしますか。
+5,学んだことを整理する2,Mika studies art at university.,ミカは大学で美術を勉強します。
+5,学んだことを整理する2,Does Mr.Smith speak Japanese?,スミス先生は日本語を話しますか。
+5,学んだことを整理する2,Does your mother cook every day?,あなたのお母さんは毎日、料理をしますか。
+5,学んだことを整理する2,Yes, she does.,はい、します。
+5,学んだことを整理する2,No, she doesn't.,いいえ、しません。
+5,学んだことを整理する2,My father likes cooking.,私の父は料理が好きです。
+5,学んだことを整理する2,Does your cat eat fish?,あなたのネコは魚を食べますか。
+5,学んだことを整理する2,Lisa does not ride a bike.,リサは自転車に乗りません。
+5,学んだことを活用する1,You can feed the elephants.,あなたは象にエサをやることができます。
+5,学んだことを活用する1,Please ask the staff.,どうぞスタッフにたずねてみてください。
+5,学んだことを活用する1,These two elephants are the Azian elephants.,これら2頭の像は、アジア象です。
+5,学んだことを活用する1,They mainly live in Southeast Asia.,彼らは主に東南アジアに住んでいます。
+5,学んだことを活用する1,They are very friendly.,彼らはとても人懐っこいです。
+5,学んだことを活用する1,The big elephant is Mary.,大きい象はマリーです。
+5,学んだことを活用する1,She is from Thailand.,彼女はタイ出身です。
+5,学んだことを活用する1,She really likes apples, and eats thirty apples every day.,彼女は本当にリンゴが好きで、毎日30個のリンゴを食べます。
+5,学んだことを活用する1,She is mother elephant.,彼女は母象です。
+5,学んだことを活用する1,The small elephant is Joe.,小さい象はジョーです。
+5,学んだことを活用する1,He is Mary's child.,彼はマリーの子供です。
+5,学んだことを活用する1,He doesn't eat apples, but he eats bananas.,彼はリンゴを食べません、しかしバナナを食べます。
+5,学んだことを活用する1,And he likes playing with the staff.,そして彼はスタッフと遊ぶのが好きです。
+5,学んだことを活用する1,You can feed Mary and Joe.,あなたはマリーとジョーにエサをやることができます。
+5,学んだことを活用する1,Please buy the food from the staff.,スタッフから食べ物を買ってください。
+5,学んだことを活用する1,How many apples does Mary eat every day?,マリーは毎日、リンゴを何個食べますか。
+5,学んだことを活用する1,She eats thirty apples every day.,彼女は毎日、30個のリンゴを食べます。
+5,学んだことを活用する1,What does Joe eat?,ジョーは何を食べますか。
+5,学んだことを活用する1,He eats bananas.,彼はバナナを食べます。
+5,学んだことを活用する1,Mary likes apples.,マリーはリンゴが好きです。
+5,学んだことを活用する1,Joe doesn't eat apples.,ジョーはリンゴを食べません。
+5,学んだことを活用する1,Mary is from Thailand.,マリーはタイ出身です。
+5,学んだことを活用する1,Joe is a child elephant.,ジョーは子象です。
+5,学んだことを活用する2,Does this bus go to Shinjuku?,このバスは新宿に行きますか。
+5,学んだことを活用する2,Yes, it does.,はい、行きます。
+5,学んだことを活用する2,What time does this bus leave?,何時にこのバスは出発しますか。
+5,学んだことを活用する2,At 8:15.,8時15分です。
+5,学んだことを活用する2,I'll get sushi for today's party.,私は今日のパーティーのために寿司を買うつもりです。
+5,学んだことを活用する2,Do you want something else?,何かそのほかに欲しいものはありますか。
+5,学んだことを活用する2,Wait!,待って。
+5,学んだことを活用する2,Lisa doesn't like sushi.,リサは寿司が好きではありません。
+5,学んだことを活用する2,She can't eat raw fish.,彼女は生魚を食べることができません。
+5,学んだことを活用する2,She loves pizza.,彼女はピザが大好きです。
+5,学んだことを活用する2,So pizza is better.,だからピザがよりよいです。
+5,学んだことを活用する2,Oh, thank you.,おー、ありがとう。
+5,学んだことを活用する2,Then I'll get some pizza.,それではピザをいくつか買うつもりです。
+5,学んだことを活用する2,Whose notebook is this?,これはだれのノート？
+5,学んだことを活用する2,It's mine.,私のです。
+5,学んだことを活用する2,I was looking for it.,私はそれを探していました。
+5,学んだことを活用する2,Whoes textbook is this?,この教科書はだれの。
+5,学んだことを活用する2,It's Ken's.,それはケンのです。
+5,Language Focus,I make lunch on weekends.,私は週末、ランチを作ります。
+5,Language Focus,Lisa makes lunch on weekends.,リサは週末、ランチを作ります。
+5,Language Focus,You study math after school.,あなたは放課後、数学を勉強します。
+5,Language Focus,My brother studies math after school.,私の兄は放課後、数学を勉強します。
+5,Language Focus,She teaches science.,彼女は理科を教えます。
+5,Language Focus,I teache science.,私は理科を教えます。
+5,Language Focus,Mr. Smith drinks Japanese tea.,スミス先生は日本茶を飲みます。
+5,Language Focus,Does Mr. Smith drink Japanese tea?,スミス先生は日本茶を飲みますか。
+5,Language Focus,My mother knows the singer.,私の母はその歌手を知っています。
+5,Language Focus,My mother does not know the singer.,私の母はその歌手を知りません。
+5,Language Focus,He watches TV after dinner.,彼は夕食後、テレビを見ます。
+5,Language Focus,He doesn't watch TV after dinner.,彼は夕食後、テレビを見ません。
+5,Language Focus,Does she play volleyball?,彼女はバレーボールをしますか。
+5,Language Focus,Do they play volleyball?,彼らはバレーボールをしますか。
+5,Language Focus,Mike doesn't like anime.,マイクはアニメが好きではありません。
+5,Language Focus,We don't like anime.,私たちはアニメが好きではありません。
+5,SPECIAL TOPICS,I play tennis every day.,私は毎日テニスをします。
+5,SPECIAL TOPICS,We know Mike.,私たちはマイクのことを知っています。
+5,SPECIAL TOPICS,My father reads books every night.,私の父は毎晩、本を読みます。
+5,SPECIAL TOPICS,Mr.Kato teaches science.,加藤先生は理科を教えます。
+5,SPECIAL TOPICS,Mike studies Japanese on weekends.,マイクは週末に日本語を勉強します。
+5,SPECIAL TOPICS,Lisa and I often go to the park.,リサと私はよくその公園を行きます。
+5,SPECIAL TOPICS,They live in Tokyo.,彼らは東京に住んでいます。
+5,SPECIAL TOPICS,I practive soccer every day.,私は毎日、サッカーの練習をします。
+5,SPECIAL TOPICS,He practices soccer every day.,彼は毎日、サッカーの練習をします。
+5,SPECIAL TOPICS,They practice soccer every day.,彼らは毎日、サッカーの練習をします。
+5,Remember?,I love him.,私は彼のことが好きです。
+5,Remember?,Do you love me?,あなたは私のことが好きなのですか。
+5,Remember?,He loves you.,彼はあなたのことが好きなのです。
+5,Remember?,Is this your bag?,これはあなたのかばんですか。
+5,Remember?,That is her bag.,あれは彼女のかばんです。
+5,Remember?,This bag is not mine.,このかばんは私のものではありません。
+5,Remember?,Are they your friends?,彼らはあなたの友だちですか。
+5,Remember?,I often talk with them.,私はよく彼らと話します。
+5,Remember?,Our school is not new.,私たちの学校は新しくありません。

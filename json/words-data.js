@@ -1316,7 +1316,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I am Miku.",
     "ja": "私はミクです。",
     "ja_answers": [
@@ -1329,7 +1329,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I like tennis.",
     "ja": "私はテニスが好きです。",
     "ja_answers": [
@@ -1342,7 +1342,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I play rugby every day.",
     "ja": "ぼくは毎日ラグビーをします。",
     "ja_answers": [
@@ -1355,7 +1355,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I am Yusuke.",
     "ja": "ぼくはユウスケです。",
     "ja_answers": [
@@ -1368,7 +1368,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I am not a baseball fan.",
     "ja": "私は野球のファンではありません。",
     "ja_answers": [
@@ -1381,7 +1381,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I like baseball.",
     "ja": "ぼくは野球が好きです。",
     "ja_answers": [
@@ -1394,7 +1394,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I don't like math.",
     "ja": "私は数学が好きではありません。",
     "ja_answers": [
@@ -1407,7 +1407,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I am Mika.",
     "ja": "私はミカです。",
     "ja_answers": [
@@ -1420,7 +1420,7 @@ window.WORDS = [
   },
   {
     "lesson": "1",
-    "part": "SPECIAL TOPICS 1",
+    "part": "SPECIAL TOPICS",
     "en": "I study English.",
     "ja": "英語を勉強しているよ。",
     "ja_answers": [
@@ -3864,7 +3864,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "I am Taku.",
     "ja": "私はタクです。",
     "ja_answers": [
@@ -3877,7 +3877,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "You are kind.",
     "ja": "あなたはやさしいですね。",
     "ja_answers": [
@@ -3886,7 +3886,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "He is my uncle.",
     "ja": "彼は私のおじです。",
     "ja_answers": [
@@ -3895,7 +3895,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "We are good friends.",
     "ja": "私たちは親友です。",
     "ja_answers": [
@@ -3904,7 +3904,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "This book is popular.",
     "ja": "この本は人気があります。",
     "ja_answers": [
@@ -3913,7 +3913,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "You are my hero.",
     "ja": "あなたは私のヒーローです。",
     "ja_answers": [
@@ -3922,7 +3922,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "This is my pen.",
     "ja": "これは私のペンです。",
     "ja_answers": [
@@ -3931,7 +3931,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "That is a restaurant.",
     "ja": "あれはレストランです。",
     "ja_answers": [
@@ -3940,7 +3940,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "Mika is good at Chinese.",
     "ja": "ミカは中国語が上手です。",
     "ja_answers": [
@@ -3949,7 +3949,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "She is a hip-hop dancer.",
     "ja": "彼女はヒップホップダンサーです。",
     "ja_answers": [
@@ -3958,7 +3958,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "My dog is very cute.",
     "ja": "私のイヌはとてもかわいいです。",
     "ja_answers": [
@@ -3967,7 +3967,7 @@ window.WORDS = [
   },
   {
     "lesson": "3",
-    "part": "SPECIAL TOPICS 2",
+    "part": "SPECIAL TOPICS",
     "en": "We are in the tennis club.",
     "ja": "私たちはテニス部です。",
     "ja_answers": [
@@ -4206,6 +4206,2925 @@ window.WORDS = [
       "僕は独力で東京に行きました。",
       "ぼくが独力で東京に行きました。",
       "僕が独力で東京に行きました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Where do you want to go?",
+    "ja": "あなたはどこに行きたいですか。",
+    "ja_answers": [
+      "あなたはどこに行きたいですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "I want to go to Hokkaido.",
+    "ja": "私は北海道に行きたいです。",
+    "ja_answers": [
+      "私は北海道に行きたいです。",
+      "ぼくは北海道に行きたいです。",
+      "僕は北海道に行きたいです。",
+      "ぼくが北海道に行きたいです。",
+      "僕が北海道に行きたいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Where do you practice soccer?",
+    "ja": "あなたはどこでサッカーを練習しますか。",
+    "ja_answers": [
+      "あなたはどこでサッカーを練習しますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "I want to eat shaved ice.",
+    "ja": "私はかき氷を食べたいです。",
+    "ja_answers": [
+      "私はかき氷を食べたいです。",
+      "ぼくはかき氷を食べたいです。",
+      "僕はかき氷を食べたいです。",
+      "ぼくがかき氷を食べたいです。",
+      "僕がかき氷を食べたいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "We want to go to the beach.",
+    "ja": "私たちはビーチに行きたいです。",
+    "ja_answers": [
+      "私たちはビーチに行きたいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Where do you want to go?",
+    "ja": "あなたはどこに行きたいですか。",
+    "ja_answers": [
+      "あなたはどこに行きたいですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Where do you study English?",
+    "ja": "あなたはどこで英語を勉強しますか。",
+    "ja_answers": [
+      "あなたはどこで英語を勉強しますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "I want to play baseball.",
+    "ja": "私は野球がしたいです。",
+    "ja_answers": [
+      "私は野球がしたいです。",
+      "ぼくは野球がしたいです。",
+      "僕は野球がしたいです。",
+      "ぼくが野球がしたいです。",
+      "僕が野球がしたいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Where do you practice tennis?",
+    "ja": "あなたはどこでテニスの練習をしますか。",
+    "ja_answers": [
+      "あなたはどこでテニスの練習をしますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "I want to see big fireworks.",
+    "ja": "私は大きな花火を見たいです。",
+    "ja_answers": [
+      "私は大きな花火を見たいです。",
+      "ぼくは大きな花火を見たいです。",
+      "僕は大きな花火を見たいです。",
+      "ぼくが大きな花火を見たいです。",
+      "僕が大きな花火を見たいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Where do you want to go?",
+    "ja": "あなたはどこに行きたいですか。",
+    "ja_answers": [
+      "あなたはどこに行きたいですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "I want to go to the zoo.",
+    "ja": "私は動物園に行きたいです。",
+    "ja_answers": [
+      "私は動物園に行きたいです。",
+      "ぼくは動物園に行きたいです。",
+      "僕は動物園に行きたいです。",
+      "ぼくが動物園に行きたいです。",
+      "僕が動物園に行きたいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "baby",
+    "ja": "赤ちゃん",
+    "ja_answers": [
+      "赤ちゃん"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "cousin",
+    "ja": "いとこ",
+    "ja_answers": [
+      "いとこ"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "Korean",
+    "ja": "韓国の",
+    "ja_answers": [
+      "韓国の"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "2",
+    "en": "What's Seattle Dog?",
+    "ja": "シアトルドッグとは何ですか。",
+    "ja_answers": [
+      "シアトルドッグとは何ですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "do my homework",
+    "ja": "宿題をする",
+    "ja_answers": [
+      "宿題をする"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "listen to music",
+    "ja": "音楽を聞く",
+    "ja_answers": [
+      "音楽を聞く"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "see fire works",
+    "ja": "花火を見る",
+    "ja_answers": [
+      "花火を見る"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "enjoy fishing",
+    "ja": "つりを楽しむ",
+    "ja_answers": [
+      "つりを楽しむ"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "watch TV",
+    "ja": "テレビを見る",
+    "ja_answers": [
+      "テレビを見る"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "go to the library",
+    "ja": "図書館へ行く",
+    "ja_answers": [
+      "図書館へ行く"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "get up late",
+    "ja": "遅く起きる",
+    "ja_answers": [
+      "遅く起きる"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "use a computer",
+    "ja": "コンピュータを使う",
+    "ja_answers": [
+      "コンピュータを使う"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する1",
+    "en": "take a picture",
+    "ja": "写真を撮る",
+    "ja_answers": [
+      "写真を撮る"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "I saw fireworks last summer.",
+    "ja": "私は昨年の夏、花火を見ました。",
+    "ja_answers": [
+      "私は昨年の夏、花火を見ました。",
+      "ぼくは昨年の夏、花火を見ました。",
+      "僕は昨年の夏、花火を見ました。",
+      "ぼくが昨年の夏、花火を見ました。",
+      "僕が昨年の夏、花火を見ました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "We enjoyed swimming last weekend.",
+    "ja": "私たちは先週末、水泳を楽しみました。",
+    "ja_answers": [
+      "私たちは先週末、水泳を楽しみました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "Where do you study Japanese?",
+    "ja": "あなたはどこで日本語を勉強しますか。",
+    "ja_answers": [
+      "あなたはどこで日本語を勉強しますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "I ate curry and rice.",
+    "ja": "私はカレーライスを食べました。",
+    "ja_answers": [
+      "私はカレーライスを食べました。",
+      "ぼくはカレーライスを食べました。",
+      "僕はカレーライスを食べました。",
+      "ぼくがカレーライスを食べました。",
+      "僕がカレーライスを食べました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "The view was so beautiful.",
+    "ja": "景色がとてもきれいでした。",
+    "ja_answers": [
+      "景色がとてもきれいでした。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "I want to drink water.",
+    "ja": "私は水を飲みたい。",
+    "ja_answers": [
+      "私は水を飲みたい。",
+      "ぼくは水を飲みたい。",
+      "僕は水を飲みたい。",
+      "ぼくが水を飲みたい。",
+      "僕が水を飲みたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "I enjoyed shopping last Sunday.",
+    "ja": "私はこの前の日曜日、買い物を楽しみました。",
+    "ja_answers": [
+      "私はこの前の日曜日、買い物を楽しみました。",
+      "ぼくはこの前の日曜日、買い物を楽しみました。",
+      "僕はこの前の日曜日、買い物を楽しみました。",
+      "ぼくがこの前の日曜日、買い物を楽しみました。",
+      "僕がこの前の日曜日、買い物を楽しみました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "I went to Australia last year.",
+    "ja": "私は昨年、オーストラリアに行きました。",
+    "ja_answers": [
+      "私は昨年、オーストラリアに行きました。",
+      "ぼくは昨年、オーストラリアに行きました。",
+      "僕は昨年、オーストラリアに行きました。",
+      "ぼくが昨年、オーストラリアに行きました。",
+      "僕が昨年、オーストラリアに行きました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを整理する2",
+    "en": "Where do you want to go?",
+    "ja": "あなたはどこに行きたいですか。",
+    "ja_answers": [
+      "あなたはどこに行きたいですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "My friend and I enjoyed many places in town",
+    "ja": "and I really recommend these three!!!",
+    "ja_answers": [
+      "and I really recommend these three!!!"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "Quiet Beautiful Shrine",
+    "ja": "静かな美しい神社",
+    "ja_answers": [
+      "静かな美しい神社"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "We went to a shrine near the lake.",
+    "ja": "私たちは湖の近くの神社へ行きました。",
+    "ja_answers": [
+      "私たちは湖の近くの神社へ行きました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "It was beautiful",
+    "ja": "and I liked the dog statue under the small torii.",
+    "ja_answers": [
+      "and I liked the dog statue under the small torii."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "That place is far from the station.",
+    "ja": "その場所は駅から遠いです。",
+    "ja_answers": [
+      "その場所は駅から遠いです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "We went there by bus.",
+    "ja": "私たちはそこへバスで行きました。",
+    "ja_answers": [
+      "私たちはそこへバスで行きました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "Cool Old Street",
+    "ja": "クールな古い通り",
+    "ja_answers": [
+      "クールな古い通り"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "We found an old street behind the station.",
+    "ja": "私たちは駅の裏に古い通りを見つけました。",
+    "ja_answers": [
+      "私たちは駅の裏に古い通りを見つけました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "It was cool.",
+    "ja": "それはクールでした。",
+    "ja_answers": [
+      "それはクールでした。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "You can go there by rental bicycle",
+    "ja": "but you can also walk.",
+    "ja_answers": [
+      "but you can also walk."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "Cozy Nice Restaurant",
+    "ja": "居心地のよい素敵なレストラン",
+    "ja_answers": [
+      "居心地のよい素敵なレストラン"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "We ate lunch at a nice restaurant by the sea.",
+    "ja": "私たちは海のそばの素敵なレストランで昼食を食べました。",
+    "ja_answers": [
+      "私たちは海のそばの素敵なレストランで昼食を食べました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "The spaghetti was so good.",
+    "ja": "スパゲッティがとてもおいしかったです。",
+    "ja_answers": [
+      "スパゲッティがとてもおいしかったです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する1",
+    "en": "The buses don't go there",
+    "ja": "but you can walk from the station.",
+    "ja_answers": [
+      "but you can walk from the station."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "Last weekend",
+    "ja": "I went to Lake Kaede.",
+    "ja_answers": [
+      "I went to Lake Kaede."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "I enjoyed camping with my family.",
+    "ja": "私は私の家族といっしょにキャンプを楽しみました。",
+    "ja_answers": [
+      "私は私の家族といっしょにキャンプを楽しみました。",
+      "ぼくは私の家族といっしょにキャンプを楽しみました。",
+      "僕は私の家族といっしょにキャンプを楽しみました。",
+      "ぼくが私の家族といっしょにキャンプを楽しみました。",
+      "僕が私の家族といっしょにキャンプを楽しみました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "We saw beautiful flowers there.",
+    "ja": "私たちはそこで美しい花を見ました。",
+    "ja_answers": [
+      "私たちはそこで美しい花を見ました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "We made curry and rice and ate it.",
+    "ja": "私たちはカレーライスを作って、それを食べました。",
+    "ja_answers": [
+      "私たちはカレーライスを作って、それを食べました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "It was so good.",
+    "ja": "それがとてもおいしかったです。",
+    "ja_answers": [
+      "それがとてもおいしかったです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "Today",
+    "ja": "I went to the summer festival with Mika and Lisa.",
+    "ja_answers": [
+      "I went to the summer festival with Mika and Lisa."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "We ate takoyaki",
+    "ja": "and it was delicious.",
+    "ja_answers": [
+      "and it was delicious."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "At the end of the festival",
+    "ja": "we saw ...",
+    "ja_answers": [
+      "we saw ..."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "The Research of the Month",
+    "ja": "今月の調査",
+    "ja_answers": [
+      "今月の調査"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "Where do you want to go during the summer vacation?",
+    "ja": "夏休みの間にどこに行きたいですか。",
+    "ja_answers": [
+      "夏休みの間にどこに行きたいですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "In this class",
+    "ja": "8 students want to go to Hokkaido.",
+    "ja_answers": [
+      "8 students want to go to Hokkaido."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "16 students want to go to Okinawa.",
+    "ja": "16人の生徒が沖縄に行きたいです。",
+    "ja_answers": [
+      "16人の生徒が沖縄に行きたいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "学んだことを活用する2",
+    "en": "other",
+    "ja": "その他",
+    "ja_answers": [
+      "その他"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Goal Activity",
+    "en": "I want to go to the beach.",
+    "ja": "私はビーチに行きたい。",
+    "ja_answers": [
+      "私はビーチに行きたい。",
+      "ぼくはビーチに行きたい。",
+      "僕はビーチに行きたい。",
+      "ぼくがビーチに行きたい。",
+      "僕がビーチに行きたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Goal Activity",
+    "en": "I want to eat peach ice cream.",
+    "ja": "私は桃のアイスクリームを食べたい。",
+    "ja_answers": [
+      "私は桃のアイスクリームを食べたい。",
+      "ぼくは桃のアイスクリームを食べたい。",
+      "僕は桃のアイスクリームを食べたい。",
+      "ぼくが桃のアイスクリームを食べたい。",
+      "僕が桃のアイスクリームを食べたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Goal Activity",
+    "en": "I want to enjoy swimming in the sea.",
+    "ja": "私は海で泳ぐのを楽しみたい。",
+    "ja_answers": [
+      "私は海で泳ぐのを楽しみたい。",
+      "ぼくは海で泳ぐのを楽しみたい。",
+      "僕は海で泳ぐのを楽しみたい。",
+      "ぼくが海で泳ぐのを楽しみたい。",
+      "僕が海で泳ぐのを楽しみたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Goal Activity",
+    "en": "I want to go to a mountain.",
+    "ja": "私は山に行きたい。",
+    "ja_answers": [
+      "私は山に行きたい。",
+      "ぼくは山に行きたい。",
+      "僕は山に行きたい。",
+      "ぼくが山に行きたい。",
+      "僕が山に行きたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Goal Activity",
+    "en": "I want to eat curry and rice.",
+    "ja": "私はカレーライスを食べたい。",
+    "ja_answers": [
+      "私はカレーライスを食べたい。",
+      "ぼくはカレーライスを食べたい。",
+      "僕はカレーライスを食べたい。",
+      "ぼくがカレーライスを食べたい。",
+      "僕がカレーライスを食べたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Goal Activity",
+    "en": "I want to enjoy camping with my family.",
+    "ja": "私は私の家族といっしょにキャンプを楽しみたい。",
+    "ja_answers": [
+      "私は私の家族といっしょにキャンプを楽しみたい。",
+      "ぼくは私の家族といっしょにキャンプを楽しみたい。",
+      "僕は私の家族といっしょにキャンプを楽しみたい。",
+      "ぼくが私の家族といっしょにキャンプを楽しみたい。",
+      "僕が私の家族といっしょにキャンプを楽しみたい。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "cleark",
+    "ja": "店員",
+    "ja_answers": [
+      "店員"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "anything",
+    "ja": "[疑問文で]何か",
+    "ja_answers": [
+      "[疑問文で]何か"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "order",
+    "ja": "注文、注文の品",
+    "ja_answers": [
+      "注文",
+      "注文の品"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "What would you like?",
+    "ja": "何になさいますか。",
+    "ja_answers": [
+      "何になさいますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "I'd like a green salad.",
+    "ja": "グリーンサラダをお願いします。",
+    "ja_answers": [
+      "グリーンサラダをお願いします。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "How much is this?",
+    "ja": "これはいくらですか。",
+    "ja_answers": [
+      "これはいくらですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "It's fifteen dollars.",
+    "ja": "15ドルです。",
+    "ja_answers": [
+      "15ドルです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "What would you like?",
+    "ja": "何になさいますか。",
+    "ja_answers": [
+      "何になさいますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "I'd like a cheeseburger.",
+    "ja": "チーズバーガーをお願いします。",
+    "ja_answers": [
+      "チーズバーガーをお願いします。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Do you want anything with it?",
+    "ja": "それといっしょに何か欲しいものはありますか。",
+    "ja_answers": [
+      "それといっしょに何か欲しいものはありますか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Um",
+    "ja": "cola and chocolate cake",
+    "ja_answers": [
+      "cola and chocolate cake"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "How much is the total?",
+    "ja": "合計でいくらですか。",
+    "ja_answers": [
+      "合計でいくらですか。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "It's thirteen dollars.",
+    "ja": "13ドルです。",
+    "ja_answers": [
+      "13ドルです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Here you are.",
+    "ja": "はい、どうぞ。",
+    "ja_answers": [
+      "はい、どうぞ。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Thank you.",
+    "ja": "ありがとうございました。",
+    "ja_answers": [
+      "ありがとうございました。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Please pick up your order at the counter.",
+    "ja": "ご注文の品をカウンターでお受け取りください。",
+    "ja_answers": [
+      "ご注文の品をカウンターでお受け取りください。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Humburger",
+    "ja": "ハンバーガー",
+    "ja_answers": [
+      "ハンバーガー"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Fried chicken",
+    "ja": "フライドチキン",
+    "ja_answers": [
+      "フライドチキン"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "French fries",
+    "ja": "フレンチフライ",
+    "ja_answers": [
+      "フレンチフライ"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Orange juice",
+    "ja": "オレンジジュース",
+    "ja_answers": [
+      "オレンジジュース"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "Take Action!",
+    "en": "Coffee",
+    "ja": "コーヒー",
+    "ja_answers": [
+      "コーヒー"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I am a building.",
+    "ja": "私は建物です。",
+    "ja_answers": [
+      "私は建物です。",
+      "ぼくは建物です。",
+      "僕は建物です。",
+      "ぼくが建物です。",
+      "僕が建物です。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "Students come to me and study.",
+    "ja": "生徒たちは私に来て、勉強します。",
+    "ja_answers": [
+      "生徒たちは私に来て、勉強します。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I am white.",
+    "ja": "私は白いです。",
+    "ja_answers": [
+      "私は白いです。",
+      "ぼくは白いです。",
+      "僕は白いです。",
+      "ぼくが白いです。",
+      "僕が白いです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I'm very cold.",
+    "ja": "私はとても冷たいです。",
+    "ja_answers": [
+      "私はとても冷たいです。",
+      "ぼくはとても冷たいです。",
+      "僕はとても冷たいです。",
+      "ぼくがとても冷たいです。",
+      "僕がとても冷たいです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I live in winter.",
+    "ja": "私は冬に生活します。",
+    "ja_answers": [
+      "私は冬に生活します。",
+      "ぼくは冬に生活します。",
+      "僕は冬に生活します。",
+      "ぼくが冬に生活します。",
+      "僕が冬に生活します。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I live in the sky.",
+    "ja": "私は空で生活します。",
+    "ja_answers": [
+      "私は空で生活します。",
+      "ぼくは空で生活します。",
+      "僕は空で生活します。",
+      "ぼくが空で生活します。",
+      "僕が空で生活します。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I have seven colors.",
+    "ja": "私は七つの色を持っています。",
+    "ja_answers": [
+      "私は七つの色を持っています。",
+      "ぼくは七つの色を持っています。",
+      "僕は七つの色を持っています。",
+      "ぼくが七つの色を持っています。",
+      "僕が七つの色を持っています。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "You can often see me after the rain.",
+    "ja": "雨の後に、あなたはしばしば私を見ることができます。",
+    "ja_answers": [
+      "雨の後に、あなたはしばしば私を見ることができます。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I am brown.",
+    "ja": "私は茶色です。",
+    "ja_answers": [
+      "私は茶色です。",
+      "ぼくは茶色です。",
+      "僕は茶色です。",
+      "ぼくが茶色です。",
+      "僕が茶色です。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "You don't eat me.",
+    "ja": "あなたは私を食べることはできません。",
+    "ja_answers": [
+      "あなたは私を食べることはできません。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "You can drink me.",
+    "ja": "あなたは私を飲むことができます。",
+    "ja_answers": [
+      "あなたは私を飲むことができます。",
+      "あなたは私を飲めます。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I am not \"tea\".",
+    "ja": "私は「お茶」ではないです。",
+    "ja_answers": [
+      "私は「お茶」ではないです。",
+      "ぼくは「お茶」ではないです。",
+      "僕は「お茶」ではないです。",
+      "ぼくが「お茶」ではないです。",
+      "僕が「お茶」ではないです。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "Children love me.",
+    "ja": "子供たちは私を愛しています。",
+    "ja_answers": [
+      "子供たちは私を愛しています。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "They can get money.",
+    "ja": "彼らはお金をもらうことができます。",
+    "ja_answers": [
+      "彼らはお金をもらうことができます。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I come in January.",
+    "ja": "私は1月に来ます。",
+    "ja_answers": [
+      "私は1月に来ます。",
+      "ぼくは1月に来ます。",
+      "僕は1月に来ます。",
+      "ぼくが1月に来ます。",
+      "僕が1月に来ます。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "Children love me",
+    "ja": "too.",
+    "ja_answers": [
+      "too."
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "They can get nice presents.",
+    "ja": "彼らはよいプレゼントをもらうことができます。",
+    "ja_answers": [
+      "彼らはよいプレゼントをもらうことができます。"
+    ]
+  },
+  {
+    "lesson": "4",
+    "part": "SPECIAL TOPICS",
+    "en": "I come in December.",
+    "ja": "私は12月に来ます。",
+    "ja_answers": [
+      "私は12月に来ます。",
+      "ぼくは12月に来ます。",
+      "僕は12月に来ます。",
+      "ぼくが12月に来ます。",
+      "僕が12月に来ます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "My mother lives in London.",
+    "ja": "私の母はロンドンに住んでいます。",
+    "ja_answers": [
+      "私の母はロンドンに住んでいます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "My father makes breakfast every day.",
+    "ja": "私の父は毎日、朝食を作ります。",
+    "ja_answers": [
+      "私の父は毎日、朝食を作ります。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Ken plays soccer every day.",
+    "ja": "ケンは毎日、サッカーをします。",
+    "ja_answers": [
+      "ケンは毎日、サッカーをします。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Lisa likes cats very much.",
+    "ja": "リサはネコがとても好きです。",
+    "ja_answers": [
+      "リサはネコがとても好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "He studies math every day.",
+    "ja": "彼は毎日、数学を勉強します。",
+    "ja_answers": [
+      "彼は毎日、数学を勉強します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Mika reads a book every day.",
+    "ja": "ミカは毎日、本を読みます。",
+    "ja_answers": [
+      "ミカは毎日、本を読みます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Ken watched TV every day.",
+    "ja": "ケンは毎日、テレビを見ます。",
+    "ja_answers": [
+      "ケンは毎日、テレビを見ます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "My cousin lives in Tokyo.",
+    "ja": "私のいとこは東京に住んでいます。",
+    "ja_answers": [
+      "私のいとこは東京に住んでいます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "My father goes to bed at ten.",
+    "ja": "私の父は10時に寝ます。",
+    "ja_answers": [
+      "私の父は10時に寝ます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "My uncle teaches P.E.",
+    "ja": "私のおじは体育を教えています。",
+    "ja_answers": [
+      "私のおじは体育を教えています。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "I go to the park every day.",
+    "ja": "私は毎日、公園に行きます。",
+    "ja_answers": [
+      "私は毎日、公園に行きます。",
+      "ぼくは毎日、公園に行きます。",
+      "僕は毎日、公園に行きます。",
+      "ぼくが毎日、公園に行きます。",
+      "僕が毎日、公園に行きます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Mike goes to the park every day.",
+    "ja": "マイクは毎日、公園に行きます。",
+    "ja_answers": [
+      "マイクは毎日、公園に行きます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "You drink tea.",
+    "ja": "あなたはお茶を飲みます。",
+    "ja_answers": [
+      "あなたはお茶を飲みます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "My mother drinks tea.",
+    "ja": "私の母はお茶を飲みます。",
+    "ja_answers": [
+      "私の母はお茶を飲みます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Lisa speaks English well.",
+    "ja": "リサは英語を上手に話します。",
+    "ja_answers": [
+      "リサは英語を上手に話します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "She likes cooking.",
+    "ja": "彼女は料理をするのが好きです。",
+    "ja_answers": [
+      "彼女は料理をするのが好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Mr. Smith sings every song well.",
+    "ja": "スミス先生はすべての歌を上手に歌います。",
+    "ja_answers": [
+      "スミス先生はすべての歌を上手に歌います。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "Mika and I walk to school.",
+    "ja": "ミカと私は歩いて学校に行きます。",
+    "ja_answers": [
+      "ミカと私は歩いて学校に行きます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "live",
+    "ja": "住む、住んでいる",
+    "ja_answers": [
+      "住む",
+      "住んでいる"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "wear",
+    "ja": "…を着ている",
+    "ja_answers": [
+      "…を着ている"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "mother",
+    "ja": "母親",
+    "ja_answers": [
+      "母親"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "father",
+    "ja": "父親",
+    "ja_answers": [
+      "父親"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "places",
+    "ja": "場所",
+    "ja_answers": [
+      "場所"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "their",
+    "ja": "彼らの、それらの",
+    "ja_answers": [
+      "彼らの",
+      "それらの"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "1",
+    "en": "She likes small animals like rabbits.",
+    "ja": "彼女はウサギのような小さい動物が好きです。",
+    "ja_answers": [
+      "彼女はウサギのような小さい動物が好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does Ann live in London?",
+    "ja": "アンはロンドンに住んでいますか。",
+    "ja_answers": [
+      "アンはロンドンに住んでいますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Yes",
+    "ja": "she does.",
+    "ja_answers": [
+      "she does."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does your father play baseball?",
+    "ja": "あなたのお父さんは野球をしますか。",
+    "ja_answers": [
+      "あなたのお父さんは野球をしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does Ken like chocolate?",
+    "ja": "ケンはチョコレートが好きですか。",
+    "ja_answers": [
+      "ケンはチョコレートが好きですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "My father does not watch soccer.",
+    "ja": "私の父はサッカーを見ません。",
+    "ja_answers": [
+      "私の父はサッカーを見ません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does she study in London?",
+    "ja": "彼女はロンドンで勉強していますか。",
+    "ja_answers": [
+      "彼女はロンドンで勉強していますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Yes",
+    "ja": "she does.",
+    "ja_answers": [
+      "she does."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Lisa doesn't play tennis.",
+    "ja": "リサはテニスをしません。",
+    "ja_answers": [
+      "リサはテニスをしません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Mike speaks Japanese.",
+    "ja": "マイクは日本語を話します。",
+    "ja_answers": [
+      "マイクは日本語を話します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does Mike speak Japanese?",
+    "ja": "マイクは日本語を話しますか。",
+    "ja_answers": [
+      "マイクは日本語を話しますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Lisa watches tennis on TV.",
+    "ja": "リサはテレビでテニスを見ます。",
+    "ja_answers": [
+      "リサはテレビでテニスを見ます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Lisa does not watch tennis on TV.",
+    "ja": "リサはテレビでテニスを見ません。",
+    "ja_answers": [
+      "リサはテレビでテニスを見ません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does your brother play tennis?",
+    "ja": "あなたのお兄さんはテニスをしますか。",
+    "ja_answers": [
+      "あなたのお兄さんはテニスをしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does your dog like apples?",
+    "ja": "あなたのイヌはリンゴが好きですか。",
+    "ja_answers": [
+      "あなたのイヌはリンゴが好きですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "She does not speak Japanese.",
+    "ja": "彼女は日本語を話しません。",
+    "ja_answers": [
+      "彼女は日本語を話しません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "My cat doesn't like fish.",
+    "ja": "私のネコは魚が好きではありません。",
+    "ja_answers": [
+      "私のネコは魚が好きではありません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "brother",
+    "ja": "兄、弟",
+    "ja_answers": [
+      "兄",
+      "弟"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "concert",
+    "ja": "コンサート",
+    "ja_answers": [
+      "コンサート"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "performance",
+    "ja": "演奏、演技",
+    "ja_answers": [
+      "演奏",
+      "演技"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "He watches movies on the internet.",
+    "ja": "彼はインターネットで映画を見ます。",
+    "ja_answers": [
+      "彼はインターネットで映画を見ます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Does Peter play the bagpipes in concerts?",
+    "ja": "ピーターはコンサートでバグパイプを演奏しますか。",
+    "ja_answers": [
+      "ピーターはコンサートでバグパイプを演奏しますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Yes",
+    "ja": "he does.",
+    "ja_answers": [
+      "he does."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "Can Riku watch Peter's performance on TV?",
+    "ja": "リクはピーターの演奏をテレビで見ることができますか。",
+    "ja_answers": [
+      "リクはピーターの演奏をテレビで見ることができますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "2",
+    "en": "No",
+    "ja": "he cannot.",
+    "ja_answers": [
+      "he cannot."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "Whose towl is this?",
+    "ja": "これはだれのタオルですか。",
+    "ja_answers": [
+      "これはだれのタオルですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "It is mine.",
+    "ja": "それは私のものです。",
+    "ja_answers": [
+      "それは私のものです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "Whose bag is this?",
+    "ja": "これはだれのかばんですか。",
+    "ja_answers": [
+      "これはだれのかばんですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "Whose pen is this?",
+    "ja": "これはだれのペンですか。",
+    "ja_answers": [
+      "これはだれのペンですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "Whose camera is that?",
+    "ja": "あれはだれのカメラですか。",
+    "ja_answers": [
+      "あれはだれのカメラですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "It is mine.",
+    "ja": "それは私のものです。",
+    "ja_answers": [
+      "それは私のものです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "Whose eraser is this?",
+    "ja": "これはだれの消しゴムですか。",
+    "ja_answers": [
+      "これはだれの消しゴムですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "It is Mike's.",
+    "ja": "それはマイクのものです。",
+    "ja_answers": [
+      "それはマイクのものです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "Whose father is that?",
+    "ja": "あちらはだれのお父さんですか。",
+    "ja_answers": [
+      "あちらはだれのお父さんですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "3",
+    "en": "That is Mike's.",
+    "ja": "あちらはマイクのお父さんです。",
+    "ja_answers": [
+      "あちらはマイクのお父さんです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "series",
+    "ja": "シリーズ",
+    "ja_answers": [
+      "シリーズ"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "detective",
+    "ja": "探偵",
+    "ja_answers": [
+      "探偵"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "thing",
+    "ja": "物、事",
+    "ja_answers": [
+      "物",
+      "事"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "carefully",
+    "ja": "注意深く",
+    "ja_answers": [
+      "注意深く"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "strange",
+    "ja": "奇妙な、不思議な",
+    "ja_answers": [
+      "奇妙な",
+      "不思議な"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "fact",
+    "ja": "事実",
+    "ja_answers": [
+      "事実"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "solve",
+    "ja": "（問題などを）解決する",
+    "ja_answers": [
+      "（問題などを）解決する"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "difficult",
+    "ja": "難しい",
+    "ja_answers": [
+      "難しい"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "problem",
+    "ja": "問題",
+    "ja_answers": [
+      "問題"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "Please look at this picure carefully.",
+    "ja": "この写真を注意深く見てください。",
+    "ja_answers": [
+      "この写真を注意深く見てください。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "many strange facts",
+    "ja": "たくさんの奇妙な事実",
+    "ja_answers": [
+      "たくさんの奇妙な事実"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "What does Sherlock Holmes solve?",
+    "ja": "シャーロックホームズは何を解決する？",
+    "ja_answers": [
+      "シャーロックホームズは何を解決する？"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "He solves many difficult problems.",
+    "ja": "彼はたくさんの難しい問題を解決する。",
+    "ja_answers": [
+      "彼はたくさんの難しい問題を解決する。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Goal Activity",
+    "en": "She reads people's mind.",
+    "ja": "彼女は人の心を読みます。",
+    "ja_answers": [
+      "彼女は人の心を読みます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "eat",
+    "ja": "…を食べる",
+    "ja_answers": [
+      "…を食べる"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "eats",
+    "ja": "…を食べる（s）",
+    "ja_answers": [
+      "…を食べる（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "play",
+    "ja": "（スポーツなどを）する",
+    "ja_answers": [
+      "（スポーツなどを）する"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "plays",
+    "ja": "（スポーツなどを）する（s）",
+    "ja_answers": [
+      "（スポーツなどを）する（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "make",
+    "ja": "…を作る",
+    "ja_answers": [
+      "…を作る"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "makes",
+    "ja": "…を作る（s）",
+    "ja_answers": [
+      "…を作る（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "walk",
+    "ja": "（犬などを）散歩させる",
+    "ja_answers": [
+      "（犬などを）散歩させる"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "walks",
+    "ja": "（犬などを）散歩させる（s）",
+    "ja_answers": [
+      "（犬などを）散歩させる（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "drink",
+    "ja": "…を飲む",
+    "ja_answers": [
+      "…を飲む"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "drinks",
+    "ja": "…を飲む（s）",
+    "ja_answers": [
+      "…を飲む（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "read",
+    "ja": "（…を）読む",
+    "ja_answers": [
+      "（…を）読む"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "reads",
+    "ja": "（…を）読む（s）",
+    "ja_answers": [
+      "（…を）読む（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "know",
+    "ja": "（…を）知っている",
+    "ja_answers": [
+      "（…を）知っている"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "knows",
+    "ja": "（…を）知っている（s）",
+    "ja_answers": [
+      "（…を）知っている（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "take",
+    "ja": "（写真などを）撮る",
+    "ja_answers": [
+      "（写真などを）撮る"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "takes",
+    "ja": "（写真などを）撮る（s）",
+    "ja_answers": [
+      "（写真などを）撮る（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "live",
+    "ja": "住んでいる",
+    "ja_answers": [
+      "住んでいる"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "lives",
+    "ja": "住んでいる（s）",
+    "ja_answers": [
+      "住んでいる（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "speak",
+    "ja": "（ある言語を）話す",
+    "ja_answers": [
+      "（ある言語を）話す"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "speaks",
+    "ja": "（ある言語を）話す（s）",
+    "ja_answers": [
+      "（ある言語を）話す（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "like",
+    "ja": "…を好む",
+    "ja_answers": [
+      "…を好む"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "likes",
+    "ja": "…を好む（s）",
+    "ja_answers": [
+      "…を好む（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "practice",
+    "ja": "（…を）練習する",
+    "ja_answers": [
+      "（…を）練習する"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "practices",
+    "ja": "（…を）練習する（s）",
+    "ja_answers": [
+      "（…を）練習する（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "love",
+    "ja": "…が大好きである",
+    "ja_answers": [
+      "…が大好きである"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "loves",
+    "ja": "…が大好きである（s）",
+    "ja_answers": [
+      "…が大好きである（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "do",
+    "ja": "…をする",
+    "ja_answers": [
+      "…をする"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "does",
+    "ja": "…をする（s）",
+    "ja_answers": [
+      "…をする（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "go",
+    "ja": "行く",
+    "ja_answers": [
+      "行く"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "goes",
+    "ja": "行く（s）",
+    "ja_answers": [
+      "行く（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "watch",
+    "ja": "…を（注意して）見る",
+    "ja_answers": [
+      "…を（注意して）見る"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "watches",
+    "ja": "…を（注意して）見る（s）",
+    "ja_answers": [
+      "…を（注意して）見る（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "teach",
+    "ja": "…を教える",
+    "ja_answers": [
+      "…を教える"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "teaches",
+    "ja": "…を教える（s）",
+    "ja_answers": [
+      "…を教える（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "study",
+    "ja": "（…を）勉強する",
+    "ja_answers": [
+      "（…を）勉強する"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する1",
+    "en": "studies",
+    "ja": "（…を）勉強する（s）",
+    "ja_answers": [
+      "（…を）勉強する（s）"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "I live in Osaka.",
+    "ja": "私は大阪に住んでいます。",
+    "ja_answers": [
+      "私は大阪に住んでいます。",
+      "ぼくは大阪に住んでいます。",
+      "僕は大阪に住んでいます。",
+      "ぼくが大阪に住んでいます。",
+      "僕が大阪に住んでいます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Mr. Smith lives in Osaka.",
+    "ja": "スミス氏は大阪に住んでいます。",
+    "ja_answers": [
+      "スミス氏は大阪に住んでいます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "My brother likes soccer.",
+    "ja": "私の兄はサッカーが好きです。",
+    "ja_answers": [
+      "私の兄はサッカーが好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "My brother doesn't like soccer.",
+    "ja": "私の兄はサッカーが好きではありません。",
+    "ja_answers": [
+      "私の兄はサッカーが好きではありません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Mika runs in the morning.",
+    "ja": "ミカは朝走ります。",
+    "ja_answers": [
+      "ミカは朝走ります。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Does Mika run in the morning?",
+    "ja": "ミカは朝走りますか。",
+    "ja_answers": [
+      "ミカは朝走りますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Does he play soccer every day?",
+    "ja": "彼は毎日、サッカーをしますか。",
+    "ja_answers": [
+      "彼は毎日、サッカーをしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Do they play soccer every day?",
+    "ja": "彼らは毎日、サッカーをしますか。",
+    "ja_answers": [
+      "彼らは毎日、サッカーをしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Mika studies art at university.",
+    "ja": "ミカは大学で美術を勉強します。",
+    "ja_answers": [
+      "ミカは大学で美術を勉強します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Does Mr.Smith speak Japanese?",
+    "ja": "スミス先生は日本語を話しますか。",
+    "ja_answers": [
+      "スミス先生は日本語を話しますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Does your mother cook every day?",
+    "ja": "あなたのお母さんは毎日、料理をしますか。",
+    "ja_answers": [
+      "あなたのお母さんは毎日、料理をしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Yes",
+    "ja": "she does.",
+    "ja_answers": [
+      "she does."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "No",
+    "ja": "she doesn't.",
+    "ja_answers": [
+      "she doesn't."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "My father likes cooking.",
+    "ja": "私の父は料理が好きです。",
+    "ja_answers": [
+      "私の父は料理が好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Does your cat eat fish?",
+    "ja": "あなたのネコは魚を食べますか。",
+    "ja_answers": [
+      "あなたのネコは魚を食べますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを整理する2",
+    "en": "Lisa does not ride a bike.",
+    "ja": "リサは自転車に乗りません。",
+    "ja_answers": [
+      "リサは自転車に乗りません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "You can feed the elephants.",
+    "ja": "あなたは象にエサをやることができます。",
+    "ja_answers": [
+      "あなたは象にエサをやることができます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "Please ask the staff.",
+    "ja": "どうぞスタッフにたずねてみてください。",
+    "ja_answers": [
+      "どうぞスタッフにたずねてみてください。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "These two elephants are the Azian elephants.",
+    "ja": "これら2頭の像は、アジア象です。",
+    "ja_answers": [
+      "これら2頭の像は、アジア象です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "They mainly live in Southeast Asia.",
+    "ja": "彼らは主に東南アジアに住んでいます。",
+    "ja_answers": [
+      "彼らは主に東南アジアに住んでいます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "They are very friendly.",
+    "ja": "彼らはとても人懐っこいです。",
+    "ja_answers": [
+      "彼らはとても人懐っこいです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "The big elephant is Mary.",
+    "ja": "大きい象はマリーです。",
+    "ja_answers": [
+      "大きい象はマリーです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "She is from Thailand.",
+    "ja": "彼女はタイ出身です。",
+    "ja_answers": [
+      "彼女はタイ出身です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "She really likes apples",
+    "ja": "and eats thirty apples every day.",
+    "ja_answers": [
+      "and eats thirty apples every day."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "She is mother elephant.",
+    "ja": "彼女は母象です。",
+    "ja_answers": [
+      "彼女は母象です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "The small elephant is Joe.",
+    "ja": "小さい象はジョーです。",
+    "ja_answers": [
+      "小さい象はジョーです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "He is Mary's child.",
+    "ja": "彼はマリーの子供です。",
+    "ja_answers": [
+      "彼はマリーの子供です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "He doesn't eat apples",
+    "ja": "but he eats bananas.",
+    "ja_answers": [
+      "but he eats bananas."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "And he likes playing with the staff.",
+    "ja": "そして彼はスタッフと遊ぶのが好きです。",
+    "ja_answers": [
+      "そして彼はスタッフと遊ぶのが好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "You can feed Mary and Joe.",
+    "ja": "あなたはマリーとジョーにエサをやることができます。",
+    "ja_answers": [
+      "あなたはマリーとジョーにエサをやることができます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "Please buy the food from the staff.",
+    "ja": "スタッフから食べ物を買ってください。",
+    "ja_answers": [
+      "スタッフから食べ物を買ってください。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "How many apples does Mary eat every day?",
+    "ja": "マリーは毎日、リンゴを何個食べますか。",
+    "ja_answers": [
+      "マリーは毎日、リンゴを何個食べますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "She eats thirty apples every day.",
+    "ja": "彼女は毎日、30個のリンゴを食べます。",
+    "ja_answers": [
+      "彼女は毎日、30個のリンゴを食べます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "What does Joe eat?",
+    "ja": "ジョーは何を食べますか。",
+    "ja_answers": [
+      "ジョーは何を食べますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "He eats bananas.",
+    "ja": "彼はバナナを食べます。",
+    "ja_answers": [
+      "彼はバナナを食べます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "Mary likes apples.",
+    "ja": "マリーはリンゴが好きです。",
+    "ja_answers": [
+      "マリーはリンゴが好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "Joe doesn't eat apples.",
+    "ja": "ジョーはリンゴを食べません。",
+    "ja_answers": [
+      "ジョーはリンゴを食べません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "Mary is from Thailand.",
+    "ja": "マリーはタイ出身です。",
+    "ja_answers": [
+      "マリーはタイ出身です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する1",
+    "en": "Joe is a child elephant.",
+    "ja": "ジョーは子象です。",
+    "ja_answers": [
+      "ジョーは子象です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Does this bus go to Shinjuku?",
+    "ja": "このバスは新宿に行きますか。",
+    "ja_answers": [
+      "このバスは新宿に行きますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Yes",
+    "ja": "it does.",
+    "ja_answers": [
+      "it does."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "What time does this bus leave?",
+    "ja": "何時にこのバスは出発しますか。",
+    "ja_answers": [
+      "何時にこのバスは出発しますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "At 8:15.",
+    "ja": "8時15分です。",
+    "ja_answers": [
+      "8時15分です。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "I'll get sushi for today's party.",
+    "ja": "私は今日のパーティーのために寿司を買うつもりです。",
+    "ja_answers": [
+      "私は今日のパーティーのために寿司を買うつもりです。",
+      "ぼくは今日のパーティーのために寿司を買うつもりです。",
+      "僕は今日のパーティーのために寿司を買うつもりです。",
+      "ぼくが今日のパーティーのために寿司を買うつもりです。",
+      "僕が今日のパーティーのために寿司を買うつもりです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Do you want something else?",
+    "ja": "何かそのほかに欲しいものはありますか。",
+    "ja_answers": [
+      "何かそのほかに欲しいものはありますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Wait!",
+    "ja": "待って。",
+    "ja_answers": [
+      "待って。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Lisa doesn't like sushi.",
+    "ja": "リサは寿司が好きではありません。",
+    "ja_answers": [
+      "リサは寿司が好きではありません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "She can't eat raw fish.",
+    "ja": "彼女は生魚を食べることができません。",
+    "ja_answers": [
+      "彼女は生魚を食べることができません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "She loves pizza.",
+    "ja": "彼女はピザが大好きです。",
+    "ja_answers": [
+      "彼女はピザが大好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "So pizza is better.",
+    "ja": "だからピザがよりよいです。",
+    "ja_answers": [
+      "だからピザがよりよいです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Oh",
+    "ja": "thank you.",
+    "ja_answers": [
+      "thank you."
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Then I'll get some pizza.",
+    "ja": "それではピザをいくつか買うつもりです。",
+    "ja_answers": [
+      "それではピザをいくつか買うつもりです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Whose notebook is this?",
+    "ja": "これはだれのノート？",
+    "ja_answers": [
+      "これはだれのノート？"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "It's mine.",
+    "ja": "私のです。",
+    "ja_answers": [
+      "私のです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "I was looking for it.",
+    "ja": "私はそれを探していました。",
+    "ja_answers": [
+      "私はそれを探していました。",
+      "ぼくはそれを探していました。",
+      "僕はそれを探していました。",
+      "ぼくがそれを探していました。",
+      "僕がそれを探していました。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "Whoes textbook is this?",
+    "ja": "この教科書はだれの。",
+    "ja_answers": [
+      "この教科書はだれの。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "学んだことを活用する2",
+    "en": "It's Ken's.",
+    "ja": "それはケンのです。",
+    "ja_answers": [
+      "それはケンのです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "I make lunch on weekends.",
+    "ja": "私は週末、ランチを作ります。",
+    "ja_answers": [
+      "私は週末、ランチを作ります。",
+      "ぼくは週末、ランチを作ります。",
+      "僕は週末、ランチを作ります。",
+      "ぼくが週末、ランチを作ります。",
+      "僕が週末、ランチを作ります。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "Lisa makes lunch on weekends.",
+    "ja": "リサは週末、ランチを作ります。",
+    "ja_answers": [
+      "リサは週末、ランチを作ります。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "You study math after school.",
+    "ja": "あなたは放課後、数学を勉強します。",
+    "ja_answers": [
+      "あなたは放課後、数学を勉強します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "My brother studies math after school.",
+    "ja": "私の兄は放課後、数学を勉強します。",
+    "ja_answers": [
+      "私の兄は放課後、数学を勉強します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "She teaches science.",
+    "ja": "彼女は理科を教えます。",
+    "ja_answers": [
+      "彼女は理科を教えます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "I teache science.",
+    "ja": "私は理科を教えます。",
+    "ja_answers": [
+      "私は理科を教えます。",
+      "ぼくは理科を教えます。",
+      "僕は理科を教えます。",
+      "ぼくが理科を教えます。",
+      "僕が理科を教えます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "Mr. Smith drinks Japanese tea.",
+    "ja": "スミス先生は日本茶を飲みます。",
+    "ja_answers": [
+      "スミス先生は日本茶を飲みます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "Does Mr. Smith drink Japanese tea?",
+    "ja": "スミス先生は日本茶を飲みますか。",
+    "ja_answers": [
+      "スミス先生は日本茶を飲みますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "My mother knows the singer.",
+    "ja": "私の母はその歌手を知っています。",
+    "ja_answers": [
+      "私の母はその歌手を知っています。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "My mother does not know the singer.",
+    "ja": "私の母はその歌手を知りません。",
+    "ja_answers": [
+      "私の母はその歌手を知りません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "He watches TV after dinner.",
+    "ja": "彼は夕食後、テレビを見ます。",
+    "ja_answers": [
+      "彼は夕食後、テレビを見ます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "He doesn't watch TV after dinner.",
+    "ja": "彼は夕食後、テレビを見ません。",
+    "ja_answers": [
+      "彼は夕食後、テレビを見ません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "Does she play volleyball?",
+    "ja": "彼女はバレーボールをしますか。",
+    "ja_answers": [
+      "彼女はバレーボールをしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "Do they play volleyball?",
+    "ja": "彼らはバレーボールをしますか。",
+    "ja_answers": [
+      "彼らはバレーボールをしますか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "Mike doesn't like anime.",
+    "ja": "マイクはアニメが好きではありません。",
+    "ja_answers": [
+      "マイクはアニメが好きではありません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Language Focus",
+    "en": "We don't like anime.",
+    "ja": "私たちはアニメが好きではありません。",
+    "ja_answers": [
+      "私たちはアニメが好きではありません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "I play tennis every day.",
+    "ja": "私は毎日テニスをします。",
+    "ja_answers": [
+      "私は毎日テニスをします。",
+      "ぼくは毎日テニスをします。",
+      "僕は毎日テニスをします。",
+      "ぼくが毎日テニスをします。",
+      "僕が毎日テニスをします。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "We know Mike.",
+    "ja": "私たちはマイクのことを知っています。",
+    "ja_answers": [
+      "私たちはマイクのことを知っています。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "My father reads books every night.",
+    "ja": "私の父は毎晩、本を読みます。",
+    "ja_answers": [
+      "私の父は毎晩、本を読みます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "Mr.Kato teaches science.",
+    "ja": "加藤先生は理科を教えます。",
+    "ja_answers": [
+      "加藤先生は理科を教えます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "Mike studies Japanese on weekends.",
+    "ja": "マイクは週末に日本語を勉強します。",
+    "ja_answers": [
+      "マイクは週末に日本語を勉強します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "Lisa and I often go to the park.",
+    "ja": "リサと私はよくその公園を行きます。",
+    "ja_answers": [
+      "リサと私はよくその公園を行きます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "They live in Tokyo.",
+    "ja": "彼らは東京に住んでいます。",
+    "ja_answers": [
+      "彼らは東京に住んでいます。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "I practive soccer every day.",
+    "ja": "私は毎日、サッカーの練習をします。",
+    "ja_answers": [
+      "私は毎日、サッカーの練習をします。",
+      "ぼくは毎日、サッカーの練習をします。",
+      "僕は毎日、サッカーの練習をします。",
+      "ぼくが毎日、サッカーの練習をします。",
+      "僕が毎日、サッカーの練習をします。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "He practices soccer every day.",
+    "ja": "彼は毎日、サッカーの練習をします。",
+    "ja_answers": [
+      "彼は毎日、サッカーの練習をします。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "SPECIAL TOPICS",
+    "en": "They practice soccer every day.",
+    "ja": "彼らは毎日、サッカーの練習をします。",
+    "ja_answers": [
+      "彼らは毎日、サッカーの練習をします。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "I love him.",
+    "ja": "私は彼のことが好きです。",
+    "ja_answers": [
+      "私は彼のことが好きです。",
+      "ぼくは彼のことが好きです。",
+      "僕は彼のことが好きです。",
+      "ぼくが彼のことが好きです。",
+      "僕が彼のことが好きです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "Do you love me?",
+    "ja": "あなたは私のことが好きなのですか。",
+    "ja_answers": [
+      "あなたは私のことが好きなのですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "He loves you.",
+    "ja": "彼はあなたのことが好きなのです。",
+    "ja_answers": [
+      "彼はあなたのことが好きなのです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "Is this your bag?",
+    "ja": "これはあなたのかばんですか。",
+    "ja_answers": [
+      "これはあなたのかばんですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "That is her bag.",
+    "ja": "あれは彼女のかばんです。",
+    "ja_answers": [
+      "あれは彼女のかばんです。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "This bag is not mine.",
+    "ja": "このかばんは私のものではありません。",
+    "ja_answers": [
+      "このかばんは私のものではありません。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "Are they your friends?",
+    "ja": "彼らはあなたの友だちですか。",
+    "ja_answers": [
+      "彼らはあなたの友だちですか。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "I often talk with them.",
+    "ja": "私はよく彼らと話します。",
+    "ja_answers": [
+      "私はよく彼らと話します。",
+      "ぼくはよく彼らと話します。",
+      "僕はよく彼らと話します。",
+      "ぼくがよく彼らと話します。",
+      "僕がよく彼らと話します。"
+    ]
+  },
+  {
+    "lesson": "5",
+    "part": "Remember?",
+    "en": "Our school is not new.",
+    "ja": "私たちの学校は新しくありません。",
+    "ja_answers": [
+      "私たちの学校は新しくありません。"
     ]
   }
 ];
