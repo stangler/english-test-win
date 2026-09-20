@@ -5329,7 +5329,7 @@ window.WORDS = [
   {
     "lesson": "5",
     "part": "1",
-    "en": "Ken watched TV every day.",
+    "en": "Ken watches TV every day.",
     "ja": "ケンは毎日、テレビを見ます。",
     "ja_answers": [
       "ケンは毎日、テレビを見ます。"
